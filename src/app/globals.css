@@ -1,135 +1,32 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* ----------------------------
-   Amazon-style brand palette
----------------------------- */
-:root {
-  color-scheme: light;
-
-  --brand: #ff9900; /* Amazon orange */
-  --brand-hover: #ffad33;
-  --brand-soft: rgba(255, 153, 0, 0.18);
-
-  --ink: #232f3e; /* Amazon navy */
-  --ink-hover: #1b2633;
-}
-
+/* App-wide defaults */
 html,
 body {
   height: 100%;
+  overflow-x: hidden; /* IMPORTANT: stops sideways scrolling */
 }
 
 body {
-  background: #ffffff;
-  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Nice clean selection */
+/* Nice selection color */
 ::selection {
   background: rgba(255, 153, 0, 0.25);
 }
 
-/* Premium focus ring */
+/* Better focus ring defaults */
 :focus-visible {
   outline: none;
-  box-shadow: 0 0 0 4px rgba(255, 153, 0, 0.22);
-  border-radius: 10px;
 }
 
-/* ----------------------------
-   Custom reusable classes
-   (NO @apply = no Tailwind crash)
----------------------------- */
-
-/* Navy premium button */
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  padding: 10px 18px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffffff;
-  background: var(--ink);
-  transition: 0.2s ease;
-  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.08);
-}
-.btn-primary:hover {
-  background: var(--ink-hover);
-}
-
-/* Orange Amazon button */
-.btn-accent {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  padding: 10px 18px;
-  font-size: 14px;
-  font-weight: 800;
-  color: #111827;
-  background: var(--brand);
-  transition: 0.2s ease;
-  box-shadow: 0 10px 22px rgba(255, 153, 0, 0.18);
-}
-.btn-accent:hover {
-  background: var(--brand-hover);
-}
-
-/* Soft border button */
-.btn-soft {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  padding: 10px 16px;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--ink);
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  transition: 0.2s ease;
-}
-.btn-soft:hover {
-  background: rgba(0, 0, 0, 0.03);
-}
-
-/* Accent badge */
-.badge-accent {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border-radius: 999px;
-  padding: 6px 12px;
-  font-size: 12px;
-  font-weight: 700;
-  border: 1px solid rgba(255, 153, 0, 0.35);
-  background: rgba(255, 153, 0, 0.12);
-  color: var(--ink);
-}
-
-/* Premium card */
-.card-premium {
-  border-radius: 24px;
-  background: #ffffff;
-  padding: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.06);
-}
-
-/* Premium input */
-.input-premium {
-  width: 100%;
-  border-radius: 18px;
-  padding: 12px 14px;
-  font-size: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  background: #ffffff;
-  transition: 0.2s ease;
-}
-.input-premium:focus {
-  border-color: rgba(255, 153, 0, 0.65);
-  box-shadow: 0 0 0 4px rgba(255, 153, 0, 0.15);
-  outline: none;
+/* Utility: subtle gradient background used across pages */
+.app-bg {
+  background: radial-gradient(1200px 500px at 20% 0%, rgba(255, 153, 0, 0.12), transparent 60%),
+    radial-gradient(900px 500px at 80% 10%, rgba(0, 0, 0, 0.06), transparent 55%),
+    linear-gradient(180deg, #fff, #fafafa 40%, #ffffff);
 }
