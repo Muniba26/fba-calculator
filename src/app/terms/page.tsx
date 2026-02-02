@@ -1,22 +1,34 @@
+import Link from "next/link";
+
 export default function TermsPage() {
   return (
-    <main className="mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-3xl font-extrabold tracking-tight">Terms &amp; Disclaimer</h1>
+    <main className="max-w-4xl mx-auto p-8">
 
-      <p className="mt-4 text-slate-700 leading-7">
-        The calculator provides estimates only. Amazon fees and rules can change. Always confirm final
-        fees in Amazon Seller Central before making business decisions.
-      </p>
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-2xl font-semibold">Terms & Conditions</h1>
 
-      <h2 className="mt-8 text-xl font-bold">No Financial Advice</h2>
-      <p className="mt-2 text-slate-700 leading-7">
-        Information on this website is for educational purposes and does not constitute financial advice.
-      </p>
+        <Link
+          href="/"
+          className="px-4 py-2 rounded-lg bg-black text-white hover:opacity-90 transition"
+        >
+          Back to Home
+        </Link>
+      </div>
 
-      <h2 className="mt-8 text-xl font-bold">Liability</h2>
-      <p className="mt-2 text-slate-700 leading-7">
-        We are not responsible for losses or damages resulting from the use of this tool or guides.
-      </p>
+      <div className="bg-white rounded-2xl p-6 shadow-sm text-slate-700 space-y-4 leading-relaxed">
+        <p>
+          This website provides estimates only. Results may vary based on real Amazon fees and costs.
+        </p>
+
+        <p>
+          Users are responsible for verifying all calculations before making business decisions.
+        </p>
+
+        <p>
+          We are not affiliated with Amazon.
+        </p>
+      </div>
+
     </main>
   );
 }

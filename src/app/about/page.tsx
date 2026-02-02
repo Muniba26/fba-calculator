@@ -1,15 +1,34 @@
+import Link from "next/link";
+
 export default function AboutPage() {
   return (
-    <main className="mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-3xl font-extrabold tracking-tight">About</h1>
-      <p className="mt-4 text-slate-700 leading-7">
-        FBA Calculator UAE • KSA is built for Amazon sellers who want fast, clear profit calculations
-        and practical learning—without paying for expensive courses.
-      </p>
-      <p className="mt-3 text-slate-700 leading-7">
-        We focus on UAE (AED) and Saudi (SAR) marketplaces with simple inputs, clean UI, and
-        seller-friendly defaults.
-      </p>
+    <main className="max-w-4xl mx-auto p-8">
+      
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-2xl font-semibold">About Us</h1>
+
+        <Link
+          href="/"
+          className="px-4 py-2 rounded-lg bg-black text-white hover:opacity-90 transition"
+        >
+          Back to Home
+        </Link>
+      </div>
+
+      <div className="bg-white rounded-2xl p-6 shadow-sm space-y-4 text-slate-700 leading-relaxed">
+        <p>
+          Amazonfba is built to help UAE and Saudi sellers calculate real Amazon FBA profits easily.
+        </p>
+
+        <p>
+          Our goal is to provide free tools, clear guides, and simple calculations without paid courses.
+        </p>
+
+        <p>
+          This platform is designed for beginners and experienced sellers who want fast and accurate estimates.
+        </p>
+      </div>
+
     </main>
   );
 }

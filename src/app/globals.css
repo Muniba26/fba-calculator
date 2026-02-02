@@ -2,31 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-/* App-wide defaults */
-html,
+:root {
+  --amazon-orange: #ff9900;
+  --amazon-dark: #232f3e;
+  --amazon-light: #f7f3ed;
+}
+
+/* Background */
 body {
-  height: 100%;
-  overflow-x: hidden; /* IMPORTANT: stops sideways scrolling */
+  background-color: var(--amazon-light);
+  color: #1f2937;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--amazon-dark);
+  font-weight: 700;
 }
 
-/* Nice selection color */
-::selection {
-  background: rgba(255, 153, 0, 0.25);
+/* Buttons primary */
+.btn-primary {
+  background-color: var(--amazon-orange);
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
-/* Better focus ring defaults */
-:focus-visible {
-  outline: none;
+.btn-primary:hover {
+  background-color: #ffad33;
+  transform: translateY(-1px);
 }
 
-/* Utility: subtle gradient background used across pages */
-.app-bg {
-  background: radial-gradient(1200px 500px at 20% 0%, rgba(255, 153, 0, 0.12), transparent 60%),
-    radial-gradient(900px 500px at 80% 10%, rgba(0, 0, 0, 0.06), transparent 55%),
-    linear-gradient(180deg, #fff, #fafafa 40%, #ffffff);
+/* Buttons secondary */
+.btn-secondary {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: var(--amazon-dark);
+  color: #e5e7eb;
+}
+/* =========================
+   GLOBAL CLICKABLE FEEL
+   ========================= */
+
+/* Any link or button will show hand cursor */
+a,
+button {
+  cursor: pointer;
+}
+
+/* Smooth hover animations */
+a,
+button {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease,
+    background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+/* Hover “stand up” effect */
+a:hover,
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Focus for keyboard users (important) */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(255, 140, 0, 0.6);
+  outline-offset: 2px;
+  border-radius: 10px;
 }
