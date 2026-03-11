@@ -4,6 +4,7 @@ import TopBar from "@/components/TopBar";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.fbacalculatoruae.com"),
   title: "Amazon FBA Profit Calculator UAE & Saudi | Free Seller Tool",
   description:
     "Free Amazon FBA profit calculator for UAE and Saudi Arabia sellers. Calculate Amazon referral fees, fulfillment fees, margins, and net profit instantly.",

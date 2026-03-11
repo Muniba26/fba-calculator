@@ -104,7 +104,7 @@ export default function HomePage() {
       "@context": "https://schema.org",
       "@type": "WebApplication",
       name: "Amazon FBA Profit Calculator UAE & Saudi",
-      url: "https://yourdomain.com",
+      url: "https://www.fbacalculatoruae.com",
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
       description:
