@@ -6,30 +6,50 @@ import { usePathname } from "next/navigation";
 export default function TopBar() {
   const pathname = usePathname();
 
-  // ✅ Hide the header black button on ALL article pages
-  const isArticlePage = pathname?.startsWith("/articles");
+  const navItem = (href: string, label: string) => {
+    const isActive = pathname === href;
+    return (
+      <Link
+        href={href}
+        className={`px-4 py-2 rounded-full transition-all duration-200 font-semibold
+${
+  isActive
+    ? "bg-black/10 text-black"
+    : "text-black hover:bg-black/5"
+}`}
+      >
+        {label}
+      </Link>
+    );
+  };
 
   return (
-    <header className="w-full bg-white border-b border-black/10">
-      <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-        {/* Left: logo / brand */}
+    <header className="w-full bg-orange-100 border-b border-orange-200">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-xl bg-orange-400" />
+          <div className="w-10 h-10 rounded-lg bg-orange-400" />
           <div className="leading-tight">
-            <div className="font-semibold text-black">FBA Calculator</div>
-            <div className="text-xs text-black/60">UAE • KSA</div>
+            <div className="font-bold text-black">FBA Calculator</div>
+            <div className="text-xs text-black/70">UAE • KSA</div>
           </div>
         </Link>
 
-        {/* Right: button (hide on articles) */}
-        {!isArticlePage && (
-          <Link
-            href="/calculator"
-            className="inline-flex items-center justify-center rounded-xl bg-black px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0"
-          >
-            Use Calculator
-          </Link>
-        )}
+        {/* Navigation */}
+        <nav className="hidden md:flex items-center gap-2">
+          {navItem("/", "Home")}
+          {navItem("/articles", "Guides")}
+          {navItem("/about", "About")}
+          {navItem("/contact", "Contact")}
+        </nav>
+
+        {/* CTA */}
+        <Link
+          href="/calculator"
+          className="ml-4 px-5 py-2 rounded-full bg-black text-white font-medium hover:scale-105 transition-transform"
+        >
+          Use Calculator
+        </Link>
       </div>
     </header>
   );

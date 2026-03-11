@@ -3,33 +3,43 @@
 import Link from "next/link";
 
 export default function SiteFooter() {
-  const linkClass =
-    "px-3 py-2 rounded-lg text-white/90 hover:text-white hover:bg-white/10 " +
-    "transition-all duration-200 cursor-pointer " +
-    "hover:-translate-y-[1px] active:translate-y-0 " +
-    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40";
-
   return (
-    <footer className="w-full bg-[#0B1B2A] text-white">
+    <footer className="w-full bg-[#FDEAD2] border-t border-black/10">
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="text-sm text-white/80">
+
+        {/* Left side */}
+        <div className="text-sm text-black font-semibold">
           © {new Date().getFullYear()} AmazonFBA UAE • KSA. All rights reserved.
         </div>
 
-        <nav className="flex items-center gap-2 text-sm">
-          <Link className={linkClass} href="/about">
+        {/* Right side links – SAME style as TopBar */}
+        <nav className="flex items-center gap-6 text-sm text-black font-semibold">
+          <Link
+            href="/about"
+            className="hover:bg-black/10 px-3 py-1 rounded-md transition"
+          >
             About
           </Link>
-          <Link className={linkClass} href="/contact">
+          <Link
+            href="/contact"
+            className="hover:bg-black/10 px-3 py-1 rounded-md transition"
+          >
             Contact
           </Link>
-          <Link className={linkClass} href="/privacy">
+          <Link
+            href="/privacy"
+            className="hover:bg-black/10 px-3 py-1 rounded-md transition"
+          >
             Privacy
           </Link>
-          <Link className={linkClass} href="/terms">
+          <Link
+            href="/terms"
+            className="hover:bg-black/10 px-3 py-1 rounded-md transition"
+          >
             Terms
           </Link>
         </nav>
+
       </div>
     </footer>
   );
