@@ -36,8 +36,14 @@ export default function GuidePage() {
       </Link>
 
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-neutral-900">{guide.title}</h1>
-      </header>
+  <h1 className="text-4xl font-bold text-neutral-900">{guide.title}</h1>
+
+  {guide.updatedAt ? (
+    <p className="mt-3 text-sm text-neutral-500">
+      Last updated: {guide.updatedAt}
+    </p>
+  ) : null}
+</header>
 
       {guide.heroImage ? (
         <div className="my-8">

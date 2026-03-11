@@ -8,9 +8,14 @@ export default function SiteFooter() {
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
         {/* Left side */}
-        <div className="text-sm text-black font-semibold">
-          © {new Date().getFullYear()} AmazonFBA UAE • KSA. All rights reserved.
-        </div>
+        <div>
+  <p className="text-sm text-black font-semibold">
+    © {new Date().getFullYear()} FBA Calculator UAE. All rights reserved.
+  </p>
+  <p className="mt-1 text-sm text-black/70">
+    Tools and guides for Amazon sellers in the UAE and Saudi Arabia.
+  </p>
+</div>
 
         {/* Right side links – SAME style as TopBar */}
         <nav className="flex items-center gap-6 text-sm text-black font-semibold">
