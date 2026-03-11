@@ -15,15 +15,25 @@ export default function ContactPage() {
         </Link>
       </div>
 
-      <div className="bg-white rounded-2xl p-6 shadow-sm text-slate-700 space-y-4">
-        <p>
-          For now, we do not have a public email address.
-        </p>
+      <div className="mt-6 text-gray-700 leading-relaxed">
+  <p>
+    If you have questions, feedback, or suggestions about the FBA Calculator,
+    feel free to reach out. We are continuously improving this tool to help
+    Amazon sellers in the UAE and Saudi Arabia make better profit decisions.
+  </p>
 
-        <p>
-          Once the website domain is live, contact information will be added here.
-        </p>
-      </div>
+  <p className="mt-4">
+    For inquiries, partnerships, or support requests, please contact us at:
+  </p>
+
+  <p className="mt-2 font-semibold">
+    Email: support@fbacalculatoruae.com
+  </p>
+
+  <p className="mt-4">
+    We aim to respond to all messages as soon as possible.
+  </p>
+</div>
 
     </main>
   );
