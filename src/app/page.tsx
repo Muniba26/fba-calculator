@@ -164,7 +164,6 @@ export default function HomePage() {
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "FAQPage",
       mainEntity: [
         {
           "@type": "Question",
