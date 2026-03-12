@@ -1,23 +1,23 @@
 export default function sitemap() {
   return [
     {
-      url: "https://yourdomain.com",
+      url: "https://www.fbacalculatoruae.com",
       lastModified: new Date(),
     },
     {
-      url: "https://yourdomain.com/calculator",
+      url: "https://www.fbacalculatoruae.com",
       lastModified: new Date(),
     },
     {
-      url: "https://yourdomain.com/articles",
+      url: "https://www.fbacalculatoruae.com",
       lastModified: new Date(),
     },
     {
-      url: "https://yourdomain.com/about",
+      url: "https://www.fbacalculatoruae.com",
       lastModified: new Date(),
     },
     {
-      url: "https://yourdomain.com/contact",
+      url: "https://www.fbacalculatoruae.com",
       lastModified: new Date(),
     },
   ];
