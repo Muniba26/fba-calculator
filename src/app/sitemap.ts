@@ -1,36 +1,43 @@
+import { GUIDES } from "@/lib/guides";
+
 export default function sitemap() {
-  return [
+  const baseUrl = "https://www.fbacalculatoruae.com";
+
+  const staticPages = [
     {
-      url: "https://www.fbacalculatoruae.com",
+      url: `${baseUrl}`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/calculator",
+      url: `${baseUrl}/calculator`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides",
+      url: `${baseUrl}/guides`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-start-amazon-uae-2026",
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/about",
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/contact",
+      url: `${baseUrl}/privacy`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/privacy",
+      url: `${baseUrl}/terms`,
       lastModified: new Date(),
     },
-    {
-      url: "https://www.fbacalculatoruae.com/terms",
-      lastModified: new Date(),
-    }
   ];
+
+  const guidePages = GUIDES.map((guide) => ({
+    url: `${baseUrl}/guides/${guide.slug}`,
+    lastModified: new Date(),
+  }));
+
+  return [...staticPages, ...guidePages];
 }
