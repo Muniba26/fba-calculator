@@ -17,21 +17,16 @@ export default function ContactPage() {
 
       <div className="mt-6 text-gray-700 leading-relaxed">
   <p>
-    If you have questions, feedback, or suggestions about the FBA Calculator,
-    feel free to reach out. We are continuously improving this tool to help
-    Amazon sellers in the UAE and Saudi Arabia make better profit decisions.
+    For inquiries, partnerships, or feedback regarding FBA Calculator UAE,
+    please contact us at the email below.
+  </p>
+
+  <p className="mt-4 font-semibold">
+    Email: contact@fbacalculatoruae.com
   </p>
 
   <p className="mt-4">
-    For inquiries, partnerships, or support requests, please contact us at:
-  </p>
-
-  <p className="mt-2 font-semibold">
-    Email: support@fbacalculatoruae.com
-  </p>
-
-  <p className="mt-4">
-    We aim to respond to all messages as soon as possible.
+    We aim to respond to all genuine messages as soon as possible.
   </p>
 </div>
 
