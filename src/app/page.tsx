@@ -22,17 +22,12 @@ export default function HomePage() {
             </p>
 
             {/* ✅ CLICKABLE SEO LINE (TEXT ONLY, NO CARD) */}
-            <Link
-              href="/articles/how-to-start-amazon-fba-2026"
-              className="inline-block mt-3 text-base md:text-lg font-semibold text-gray-900 hover:underline cursor-pointer"
-            >
-              <Link
-  href="/guides/how-to-start-amazon-uae-2026"
-  className="text-2xl font-bold text-neutral-900 hover:underline"
->
-  How To Start Amazon UAE in 2026
+  <Link href="/guides/how-to-start-amazon-uae-2026" className="block ...">
+  <p className="...">Some text</p>
+  <h3 className="text-2xl font-bold text-neutral-900 underline hover:no-underline">
+    How To Start Amazon UAE in 2026
+  </h3>
 </Link>
-            </Link>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/calculator">

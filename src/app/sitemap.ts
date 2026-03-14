@@ -1,5 +1,13 @@
 import { GUIDES } from "@/lib/guides";
 
+const FEE_CATEGORIES = [
+  "electronics",
+  "books",
+  "beauty",
+  "fashion",
+  "kitchen",
+];
+
 export default function sitemap() {
   const baseUrl = "https://www.fbacalculatoruae.com";
 
@@ -39,5 +47,10 @@ export default function sitemap() {
     lastModified: new Date(),
   }));
 
-  return [...staticPages, ...guidePages];
+  const feePages = FEE_CATEGORIES.map((category) => ({
+    url: `${baseUrl}/fees/${category}`,
+    lastModified: new Date(),
+  }));
+
+  return [...staticPages, ...guidePages, ...feePages];
 }
