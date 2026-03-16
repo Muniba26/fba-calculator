@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import TopBar from "@/components/TopBar";
 import SiteFooter from "@/components/SiteFooter";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fbacalculatoruae.com"),
@@ -25,6 +26,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6375973173510379"
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
       <body className="bg-[#FFF7ED] min-h-screen flex flex-col">
         <TopBar />
 
