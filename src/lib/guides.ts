@@ -1,10 +1,16 @@
+export type GuideFaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type Guide = {
   slug: string;
   title: string;
   excerpt: string;
-  heroImage?: string;
+  heroImage: string;
+  updatedAt: string;
   contentHtml: string;
-  updatedAt?: string;
+  faq?: GuideFaqItem[];
 };
 
 export const GUIDES: Guide[] = [
@@ -16,6 +22,7 @@ export const GUIDES: Guide[] = [
     heroImage: "/articles/how-to-start-amazon-uae-2026/dubai-burj-khalife.webp",
     updatedAt: "March 2026",
     contentHtml: `
+    
       <p>Amazon UAE processed billions of dirhams in sales last year. Most of it went to a handful of sellers who figured out the system early. The market is still young, competition is still thin compared to Amazon US or Europe, and that window is closing — slowly, but it is closing.</p>
 
       <p>I've been a brand owner on Amazon UAE and Noon UAE for the past 4 years. I'm not here to give you theory — I'm giving you exactly what worked for me, the mistakes I made so you don't have to, and the steps I would follow if I was starting from scratch today in 2026. If you're serious about starting, keep reading.</p>
@@ -240,6 +247,23 @@ export const GUIDES: Guide[] = [
       <h3>How long does it take to make my first sale on Amazon UAE?</h3>
       <p>With zero advertising, it can take weeks. With Sponsored Products ads running from day one and a properly optimised listing, most sellers see their first sale within 3–7 days. Reviews come after sales — so the faster you get those first sales, the faster your listing builds credibility and starts ranking organically.</p>
     `,
+    faq: [
+  {
+    question: "How can I start selling on Amazon UAE in 2026?",
+    answer:
+      "You can start by creating a seller account, preparing your business and tax documents, selecting a product category, and checking profit margins before launching.",
+  },
+  {
+    question: "Do I need to check Amazon fees before starting?",
+    answer:
+      "Yes. Before buying stock, you should estimate referral fees, fulfillment fees, and net margin so you understand whether the product is profitable.",
+  },
+  {
+    question: "Is product research important before opening an Amazon UAE listing?",
+    answer:
+      "Yes. Good product research helps you avoid weak products, crowded categories, and low-margin items before you invest money.",
+  },
+],
   },
 
   {
@@ -250,6 +274,7 @@ export const GUIDES: Guide[] = [
     heroImage: "/articles/how-to-optimize-listing-amazon-uae/new-product.webp",
     updatedAt: "March 2026",
     contentHtml: `
+   
       <p>Most new sellers on Amazon UAE think listing optimization means just writing a title, uploading a few pictures, and waiting for sales. That's not optimization — that's only publishing.</p>
 
       <p>A high-performing listing does three things at the same time: it helps Amazon understand your product, it convinces the customer to click, and it converts that click into a sale.</p>
@@ -435,6 +460,23 @@ export const GUIDES: Guide[] = [
       <h3>When should I update my listing?</h3>
       <p>Any time you see weak results. Optimization is ongoing. Improve based on traffic, conversions, review feedback, and customer behavior.</p>
     `,
+    faq: [
+  {
+    question: "How do I optimize an Amazon UAE product listing?",
+    answer:
+      "Focus on a clear title, strong bullet points, useful product images, keyword relevance, and a competitive price that supports conversion.",
+  },
+  {
+    question: "Why is listing optimization important on Amazon UAE?",
+    answer:
+      "A better listing can improve click-through rate, conversion rate, and overall product visibility in search results.",
+  },
+  {
+    question: "Should I update my listing after launch?",
+    answer:
+      "Yes. Sellers often improve titles, images, and bullets after reviewing traffic, conversion, and customer feedback.",
+  },
+],
   },
 
   {
@@ -446,6 +488,7 @@ export const GUIDES: Guide[] = [
       "/articles/how-to-send-products-amazon-warehouse/amazon-warehouse-inside.webp",
       updatedAt: "March 2026",
     contentHtml: `
+   
     <p>Every new seller on Amazon UAE reaches the same point: their account is approved, their listing is live, and they have stock sitting at home or in a supplier's warehouse. Now what? This is where most people either waste weeks figuring it out through trial and error — or worse, get their first shipment rejected at the Amazon fulfillment center because they didn't follow the rules.</p>
 
     <p>I have been a brand owner on Amazon UAE and Noon UAE for 4 years. I have sent dozens of shipments to Amazon's fulfillment center and made every mistake in the book so you don't have to. Before reading this guide, make sure you have already completed your seller account setup — if not, read our complete guide on <a href="/guides/how-to-start-amazon-uae-2026" style="color:#2563eb;text-decoration:underline;">How to Start Selling on Amazon UAE</a> first. And make sure your listing is live and fully optimized — our <a href="/guides/how-to-optimize-listing-amazon-uae" style="color:#2563eb;text-decoration:underline;">Amazon UAE Listing & Optimization Guide</a> covers everything you need before sending your first shipment.</p>
@@ -637,6 +680,23 @@ export const GUIDES: Guide[] = [
     <h3>What is the difference between an FNSKU and an ASIN?</h3>
     <p>An ASIN is Amazon's public product identifier — it's the same for all sellers offering the same product and appears in the product URL. An FNSKU is Amazon's internal warehouse identifier that is unique to your specific seller account and product. Think of the ASIN as the product's public name and the FNSKU as its warehouse ID badge. Both are important — the ASIN for your listing, the FNSKU for your labels.</p>
   `,
+  faq: [
+  {
+    question: "How do I send inventory to an Amazon warehouse?",
+    answer:
+      "You usually prepare the inventory, label products correctly, pack units based on Amazon rules, and create the shipment inside Seller Central.",
+  },
+  {
+    question: "Why is correct packaging important for Amazon warehouse shipments?",
+    answer:
+      "Correct packaging helps avoid delays, rejection, and inventory handling issues at the fulfillment center.",
+  },
+  {
+    question: "Should I calculate fees before sending stock to Amazon?",
+    answer:
+      "Yes. You should check storage, fulfillment, and referral fees before sending large quantities of inventory.",
+  },
+],
   },
 
   {
@@ -647,6 +707,7 @@ export const GUIDES: Guide[] = [
     heroImage: "/articles/how-to-rank-product-amazon-uae/growing-arrow.webp",
     updatedAt: "March 2026",
     contentHtml: `
+   
     <p>Every Amazon UAE seller asks the same question: how do I get my product to page one? Most guides tell you to optimize your title, add keywords, and run PPC ads. That advice is not wrong — but it is incomplete. After 4 years of selling on Amazon UAE, I can tell you the single most powerful thing I did to rank my products was not inside Amazon at all. It was social media. Bringing buyers from TikTok, Instagram, and Facebook directly to my Amazon listings changed everything — and in this guide I will show you exactly how.</p>
 
     <p>I have been selling on Amazon UAE and Noon UAE as a brand owner for 4 years. I have ranked products from zero to page one, lost rankings, and won them back. This guide is everything I know about ranking, written from real experience — not theory. Before reading this, make sure you have a live, optimized listing — our <a href="/guides/how-to-optimize-listing-amazon-uae" style="color:#2563eb;text-decoration:underline;">Amazon UAE Listing & Optimization Guide</a> covers that completely. And if you haven't sent your stock to the warehouse yet, read our <a href="/guides/how-to-send-products-amazon-warehouse" style="color:#2563eb;text-decoration:underline;">FBA Warehouse Shipment Guide</a> first.</p>
@@ -870,6 +931,23 @@ export const GUIDES: Guide[] = [
     <h3>How many keywords should I focus on ranking for?</h3>
     <p>Start with one primary keyword — the one with the most buyer intent and highest relevance to your product. Get to page one for that keyword first. Then expand to secondary keywords. Trying to rank for twenty keywords at once spreads your sales velocity too thin. Concentrate your launch energy on one keyword, achieve a strong position, and then let Amazon naturally rank you for related terms as your sales history grows.</p>
   `,
+  faq: [
+  {
+    question: "How can I rank a product on Amazon UAE?",
+    answer:
+      "Ranking improves when your product gets relevant traffic, good conversion, competitive pricing, strong listing content, and steady sales velocity.",
+  },
+  {
+    question: "Does external traffic help Amazon UAE ranking?",
+    answer:
+      "Yes. External traffic from social media, search, or other channels can help when it converts into real product sales.",
+  },
+  {
+    question: "Should I optimize my listing before trying to rank?",
+    answer:
+      "Yes. A weak listing usually wastes traffic, so optimization should come before aggressive ranking efforts.",
+  },
+],
   },
   {
     slug: "amazon-uae-price-strategy",
@@ -879,6 +957,7 @@ export const GUIDES: Guide[] = [
     heroImage: "/articles/amazon-uae-price-strategy/mobile-calculator.webp",
     updatedAt: "March 2026",
     contentHtml: `
+   
     <p><em>Complete Guide — From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
 
     <p>The most common mistake I see new Amazon UAE sellers make is not about their listing, their images, or their keywords. It is about their price. They either price so high that nobody buys, or price so low that they sell everything and lose money on every order. Both are painful — and both are avoidable if you understand how to price correctly from the start.</p>
@@ -1084,6 +1163,23 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>How do I price my product during Ramadan and White Friday on Amazon UAE?</h3>
     <p>White Friday requires aggressive discounting — 20 to 25% below your regular price to remain competitive during this high-traffic event. Ramadan is different — UAE buyers are in a gifting mindset and heavy discounting is not necessary in most categories. A modest 10% promotion or simply maintaining your regular price works well during Ramadan, especially for home, fragrance, and lifestyle products. Know your event, know your buyer, and price accordingly.</p>
   `,
+  faq: [
+  {
+    question: "What is a good pricing strategy for Amazon UAE?",
+    answer:
+      "A good pricing strategy balances profit margin, competitiveness, fees, and customer expectations instead of chasing the lowest price only.",
+  },
+  {
+    question: "Why should I check fees before setting a price?",
+    answer:
+      "Amazon referral fees and fulfillment fees directly affect your real margin, so pricing without fee calculation can reduce profit.",
+  },
+  {
+    question: "Should I change prices after launch?",
+    answer:
+      "Yes. Many sellers adjust price based on conversion, competition, market demand, and profit performance.",
+  },
+],
   },
 
 {
@@ -1094,6 +1190,7 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   heroImage: "/articles/how-to-find-winning-product-amazon-uae/finding-product.webp",
   updatedAt: "March 2026",
   contentHtml: `
+  
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
 
     <p>The product you choose to sell on Amazon UAE will determine everything that follows — your investment, your profit, your ranking potential, and whether your business survives its first year. Most new sellers get this decision wrong not because they lack effort, but because they rely on gut feeling instead of data. After 4 years of selling on Amazon UAE and Noon UAE, I have learned that the right product is not the one you are most excited about — it is the one the market is already looking for.</p>
@@ -1263,6 +1360,23 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>How do I know if a product is already too competitive to enter?</h3>
     <p>Search the product on Amazon UAE and check the top 10 listings. If the majority have more than 200 reviews, strong brand identity, and optimized listings with professional images, the category is difficult for a new seller to break into quickly. That does not mean it is impossible — but it means you will need more time, more budget for promotions, and a clearly differentiated product to compete effectively.</p>
   `,
+  faq: [
+  {
+    question: "How do I find winning products for Amazon UAE?",
+    answer:
+      "Look for products with stable demand, manageable competition, healthy margin, and practical sourcing options for the UAE market.",
+  },
+  {
+    question: "Are high-selling products always the best choice?",
+    answer:
+      "No. Some high-selling products are too competitive or too low-margin for new sellers.",
+  },
+  {
+    question: "Why should I use an FBA calculator during product research?",
+    answer:
+      "A calculator helps you estimate fees and profit before buying stock, which reduces risk during product selection.",
+  },
+],
 },
 
   {
@@ -1273,6 +1387,7 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   heroImage: "/articles/amazon-uae-vs-noon-uae/amazon-vs-noon.webp",
   updatedAt: "March 2026",
   contentHtml: `
+  
     <p><em>From a 4-year Brand Owner on Both Platforms</em></p>
 
     <p>Every new seller in the UAE asks the same question before they launch: Amazon or Noon? Most guides give you a generic answer. This one is different — because I have been selling on both platforms as a brand owner for 4 years. I have seen both platforms from the inside, dealt with both seller support systems, experienced both fee structures, and built rankings on both. What I share here is real experience, not theory.</p>
@@ -1475,6 +1590,23 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>Which platform has better brand protection for registered brands?</h3>
     <p>Amazon UAE has a significantly more developed brand protection system through Amazon Brand Registry. Brand Registry gives you enhanced listing control, access to A+ Content, protection against unauthorized sellers, and powerful tools to report intellectual property violations. Noon's brand protection tools are more basic — if brand control and IP protection are priorities for your business, Amazon's Brand Registry is a major advantage.</p>
   `,
+  faq: [
+  {
+    question: "Is Amazon UAE better than Noon UAE for sellers?",
+    answer:
+      "It depends on your product, margin, competition level, and business model. Some sellers perform better on Amazon, while others get useful additional sales from Noon.",
+  },
+  {
+    question: "Should I sell on both Amazon UAE and Noon UAE?",
+    answer:
+      "Some sellers use both platforms to expand reach, but they should first understand fees, pricing, and logistics on each marketplace.",
+  },
+  {
+    question: "What should I compare before choosing between Amazon UAE and Noon UAE?",
+    answer:
+      "Compare traffic, competition, fees, delivery model, and profit margin before deciding where to focus.",
+  },
+],
 },
 
   {
@@ -1485,6 +1617,7 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   heroImage: "/articles/how-to-find-supplier-for-amazon-uae/laptop-transport.webp",
   updatedAt: "March 2026",
   contentHtml: `
+ 
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
 
     <p>Finding the right supplier is one of the most important decisions you will make as an Amazon UAE or Noon UAE seller. Your supplier determines your product quality, your cost per unit, your profit margin, and ultimately whether your business survives long term. Get it right and everything else becomes easier. Get it wrong and no amount of listing optimization or marketing will save you.</p>
@@ -1699,6 +1832,23 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>Which is better — one supplier for everything or multiple suppliers?</h3>
     <p>Start with one reliable supplier per product and build that relationship before diversifying. Once your business grows, having a backup supplier for each product is smart risk management — if your primary supplier has quality issues, a production delay, or raises prices significantly, you have an alternative ready. But for a new seller, spreading attention across multiple suppliers too early creates unnecessary complexity. Master one sourcing relationship first.</p>
   `,
+  faq: [
+  {
+    question: "How do I find suppliers for Amazon UAE and Noon UAE?",
+    answer:
+      "Start by checking product demand, required quality level, order quantity, shipping cost, and supplier reliability before placing any large order.",
+  },
+  {
+    question: "Why is supplier reliability important for marketplace sellers?",
+    answer:
+      "Reliable suppliers help reduce delays, defects, and stock problems that can damage listings and customer satisfaction.",
+  },
+  {
+    question: "Should I calculate Amazon fees before choosing a supplier?",
+    answer:
+      "Yes. A product may look cheap from a supplier, but marketplace fees can still make the final margin weak.",
+  },
+],
 },
 
   {
@@ -1709,6 +1859,7 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   heroImage: "/articles/how-to-get-reviews-amazon-uae/mobile-stars.webp",
   updatedAt: "March 2026",
   contentHtml: `
+  
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
 
     <p>Reviews on Amazon UAE are one of the most talked about and least honestly discussed topics in e-commerce selling. Every seller wants them. Most guides tell you to press the Request a Review button and wait. The reality — as any experienced UAE seller will tell you — is more nuanced than that. This guide gives you the complete picture: what actually works, what the real challenges are, and what the honest strategy looks like at every stage of your seller journey.</p>
@@ -1918,6 +2069,23 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>What should I do if a competitor is leaving fake negative reviews on my listing?</h3>
     <p>Report each suspicious review through Seller Central using the 'Report abuse' option. Document patterns — multiple reviews from new accounts, similar language, reviews appearing in a short time window — as these are evidence of coordinated abuse. Contact Amazon Seller Support directly with your documentation. Amazon takes review abuse seriously and will investigate. If you are Brand Registered, you have additional tools through the Brand Registry dashboard to report and escalate review abuse cases.</p>
   `,
+  faq: [
+  {
+    question: "How can I get more reviews on Amazon UAE?",
+    answer:
+      "The safest way is to improve product quality, delivery experience, listing clarity, and customer satisfaction so more buyers leave honest feedback.",
+  },
+  {
+    question: "Should I use risky review methods?",
+    answer:
+      "No. Risky or policy-breaking review methods can damage your account and long-term business.",
+  },
+  {
+    question: "Does a better listing help generate more reviews?",
+    answer:
+      "Yes. A clear and accurate listing improves buyer expectations and can lead to fewer complaints and better review rates.",
+  },
+],
 },
 
 {

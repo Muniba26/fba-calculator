@@ -58,6 +58,47 @@ const pages: Record<
     articleHref: "/guides/how-to-find-winning-products-for-amazon-uae",
     articleText: "See more Amazon UAE research guides",
   },
+  "how-to-check-product-demand-amazon-uae": {
+  title: "How to Check Product Demand on Amazon UAE",
+  intro:
+    "Checking product demand is one of the most important parts of Amazon UAE product research. You should understand whether buyers are already searching for the product before investing money in stock.",
+  bullets: [
+    "Search the product keyword directly on Amazon UAE",
+    "Check whether multiple sellers are actively competing",
+    "Look for consistent listing quality and review activity",
+    "Prefer products with visible buyer demand, not random guesses",
+  ],
+  articleHref: "/guides/how-to-find-winning-products-for-amazon-uae",
+  articleText: "Read the full guide on finding winning products",
+},
+
+"how-to-avoid-bad-products-amazon-uae": {
+  title: "How to Avoid Bad Products on Amazon UAE",
+  intro:
+    "Many beginners fail because they choose products with weak demand, poor margins, or too much competition. Good research is not only about finding winners, but also avoiding bad products early.",
+  bullets: [
+    "Avoid products with heavy competition from large brands",
+    "Avoid fragile, bulky, or complex items at the start",
+    "Stay away from products with very low margins",
+    "Do not choose products only because they look popular",
+  ],
+  articleHref: "/guides/how-to-rank-product-amazon-uae",
+  articleText: "Read the Amazon UAE ranking guide",
+},
+
+"how-to-choose-profitable-products-amazon-uae": {
+  title: "How to Choose Profitable Products on Amazon UAE",
+  intro:
+    "A profitable Amazon UAE product should have healthy margins after referral fees, fulfilment fees, shipping, and packaging. Smart sellers calculate before buying inventory.",
+  bullets: [
+    "Estimate Amazon fees before making any product decision",
+    "Prefer products with room for profit after all costs",
+    "Compare product cost, selling price, and net margin",
+    "Use your calculator before placing any stock order",
+  ],
+  articleHref: "/calculator",
+  articleText: "Use the Amazon FBA profit calculator",
+},
 };
 
 export default async function ProductResearchPage({ params }: Props) {
