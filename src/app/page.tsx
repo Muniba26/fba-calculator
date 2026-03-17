@@ -23,7 +23,6 @@ export default function HomePage() {
 
             {/* ✅ CLICKABLE SEO LINE (TEXT ONLY, NO CARD) */}
   <Link href="/guides/how-to-start-amazon-uae-2026" className="block ...">
-  <p className="...">Some text</p>
   <h3 className="text-2xl font-bold text-neutral-900 underline hover:no-underline">
     How To Start Amazon UAE in 2026
   </h3>
