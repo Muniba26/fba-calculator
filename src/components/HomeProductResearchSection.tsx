@@ -23,7 +23,7 @@ const researchPages = [
 
 export default function HomeProductResearchSection() {
   return (
-    <section className="mt-8 rounded-[28px] border border-neutral-200  p-8 md:p-10">
+    <section className="mt-1 rounded-[28px] border border-neutral-200  p-8 md:p-10">
       <p className="text-2xl font-semibold text-neutral-900 mb-8">
         New to Amazon FBA? Start here.
       </p>
