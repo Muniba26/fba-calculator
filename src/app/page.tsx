@@ -43,8 +43,11 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <p className="mt-4 text-xs text-gray-500">
+            <p className="mt-4 text-xs text-bold-black-1000">
               Free tool. Built for UAE & KSA sellers.
+            </p>
+            <p className="mt-4 text-xs text-black-bold-1000">
+              Used By Amazon Sellers across UAE & Saudi Arabia.
             </p>
           </div>
 
