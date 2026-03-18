@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import CalculatorPreview from "@/components/CalculatorPreview";
+import HomeProductResearchSection from "@/components/HomeProductResearchSection";
 
 export default function HomePage() {
   return (
@@ -66,81 +67,7 @@ export default function HomePage() {
       </section>
 
       {/* HOOK SECTION */}
-      <section className="pb-12">
-        <div className="bg-white border rounded-2xl p-6 md:p-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            <div>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                New to Amazon FBA? Start here.
-              </h2>
-              <section className="max-w-6xl mx-auto px-6 py-16">
-  <h2 className="text-3xl font-bold mb-6">
-    Popular Amazon Product Research Guides
-  </h2>
-
-  <p className="text-gray-600 mb-10">
-    Learn how to find profitable products for Amazon UAE using real demand,
-    competition analysis, and profit calculations.
-  </p>
-
-  <div className="grid md:grid-cols-3 gap-6">
-
-    <Link href="/product-research/how-to-find-winning-products"
-      className="block border rounded-xl p-6 hover:shadow-md transition">
-
-      <h3 className="text-xl font-semibold mb-2">
-        How to Find Winning Products
-      </h3>
-
-      <p className="text-gray-600 text-sm">
-        Practical rules to identify profitable Amazon products before investing.
-      </p>
-
-    </Link>
-
-    <Link href="/product-research/how-to-find-high-sale-products-amazon-uae"
-      className="block border rounded-xl p-6 hover:shadow-md transition">
-
-      <h3 className="text-xl font-semibold mb-2">
-        How to Find High Sale Products in Amazon UAE
-      </h3>
-
-      <p className="text-gray-600 text-sm">
-        Identify categories with strong demand and stable sales patterns.
-      </p>
-
-    </Link>
-
-    <Link href="/product-research/how-to-find-most-sell-products-amazon-uae"
-      className="block border rounded-xl p-6 hover:shadow-md transition">
-
-      <h3 className="text-xl font-semibold mb-2">
-        How to Find Most Sold Products on Amazon UAE
-      </h3>
-
-      <p className="text-gray-600 text-sm">
-        Learn how to analyze top-selling items without falling into saturated niches.
-      </p>
-
-    </Link>
-
-  </div>
-</section>
-              <p className="mt-2 text-gray-600 max-w-2xl">
-                A simple path that saves beginners from common mistakes — check
-                profit first, then learn, then decide.
-              </p>
-            </div>
-
-            <Link
-              href="/articles"
-              className="inline-flex items-center justify-center bg-black text-white px-5 py-3 rounded-full hover:opacity-90 transition"
-            >
-              Browse Guides
-            </Link>
-          </div>
-        </div>
-      </section>
+      <HomeProductResearchSection />
 
       {/* CALCULATOR PREVIEW */}
       <CalculatorPreview />
