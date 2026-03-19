@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.fbacalculatoruae.com"),
   title: "Amazon FBA Profit Calculator UAE & Saudi | Free Seller Tool",
   description:
-    "Free Amazon FBA profit calculator for UAE and Saudi Arabia sellers. Calculate Amazon referral fees, fulfillment fees, margins, and net profit instantly.",
+    "Free Amazon FBA profit calculator for UAE and Saudi Arabia sellers. Calculate Amazon referral fees, fulfillment fees, margins and profits accurately.",
   keywords: [
     "amazon fba calculator uae",
     "amazon fba calculator saudi arabia",
@@ -17,6 +17,37 @@ export const metadata: Metadata = {
     "amazon profit calculator uae",
     "amazon fba calculator gcc",
   ],
+
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+
+  openGraph: {
+    title: "Amazon FBA Profit Calculator UAE & KSA",
+    description:
+      "Calculate Amazon fees, margins and profits for UAE & Saudi sellers.",
+    url: "https://www.fbacalculatoruae.com",
+    siteName: "FBA Calculator UAE & KSA",
+    images: [
+      {
+        url: "/og-image-1200x630.png",
+        width: 1200,
+        height: 630,
+        alt: "Amazon FBA Profit Calculator UAE & KSA",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Amazon FBA Profit Calculator UAE & KSA",
+    description:
+      "Calculate Amazon fees, margins and profits for UAE & Saudi sellers.",
+    images: ["/og-image-1200x630.png"],
+  },
 };
 
 export default function RootLayout({
