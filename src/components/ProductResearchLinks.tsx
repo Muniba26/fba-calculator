@@ -21,13 +21,13 @@ const researchPages = [
   },
   {
     title: "How to Check Product Demand on Amazon UAE",
-    href: "/product-research/how-to-check-product-demand-on-amazon-uae",
+    href: "/product-research/how-to-check-product-demand-amazon-uae",
     description:
       "Learn how to validate buyer demand before investing in stock for Amazon UAE.",
   },
   {
     title: "How to Avoid Bad Products on Amazon UAE",
-    href: "/product-research/how-to-avoid-bad-products-on-amazon-uae",
+    href: "/product-research/how-to-avoid-bad-products-amazon-uae",
     description:
       "Avoid common beginner mistakes by filtering out weak product ideas early.",
   },

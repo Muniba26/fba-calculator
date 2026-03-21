@@ -6,11 +6,19 @@ export type GuideFaqItem = {
 export type Guide = {
   slug: string;
   title: string;
+  subtitle?: string;
   excerpt: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  ogImage?: string;
   heroImage: string;
-  updatedAt: string;
+  updatedAt?: string;
+  authorLine?: string;
   contentHtml: string;
-  faq?: GuideFaqItem[];
+  faq?: {
+    question: string;
+    answer: string;
+  }[];
 };
 
 export const GUIDES: Guide[] = [
@@ -19,6 +27,10 @@ export const GUIDES: Guide[] = [
     title: "How to Start Selling on Amazon UAE in 2026",
     excerpt:
       "Step-by-step beginner guide to start selling on Amazon UAE legally and correctly in 2026.",
+      seoTitle: "How to Start Selling on Amazon UAE in 2026 | Complete Beginner Guide",
+  seoDescription:
+    "Learn how to start selling on Amazon UAE in 2026 with this step-by-step beginner guide covering trade license, bank account, Amazon registration, FBA, VAT, and launch strategy.",
+  ogImage: "/og-image-1200x630.png",
     heroImage: "/articles/how-to-start-amazon-uae-2026/dubai-burj-khalife.webp",
     updatedAt: "March 2026",
     contentHtml: `
