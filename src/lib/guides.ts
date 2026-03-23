@@ -23,16 +23,14 @@ export type Guide = {
 
 export const GUIDES: Guide[] = [
   {
-    slug: "how-to-start-amazon-uae-2026",
-    title: "How to Start Selling on Amazon UAE in 2026",
-    excerpt:
-      "Step-by-step beginner guide to start selling on Amazon UAE legally and correctly in 2026.",
-      seoTitle: "How to Start Selling on Amazon UAE in 2026 | Complete Beginner Guide",
-  seoDescription:
-    "Learn how to start selling on Amazon UAE in 2026 with this step-by-step beginner guide covering trade license, bank account, Amazon registration, FBA, VAT, and launch strategy.",
-  ogImage: "/og-image-1200x630.png",
-    heroImage: "/articles/how-to-start-amazon-uae-2026/dubai-burj-khalife.webp",
-    updatedAt: "March 2026",
+  slug: "how-to-start-amazon-uae-2026",
+  title: "How to Start Selling on Amazon UAE in 2026",
+  excerpt: "Step-by-step beginner guide to start selling on Amazon UAE legally and correctly in 2026.",
+  seoTitle: "How to Start Selling on Amazon UAE in 2026 | Complete Beginner Guide",
+  seoDescription: "Learn how to start selling on Amazon UAE in 2026 with this step-by-step beginner guide covering licensing, registration, banking, and first product setup.",
+  ogImage: "/og/how-to-start-amazon-uae-2026.png",
+  heroImage: "/articles/how-to-start-amazon-uae-2026/dubai-burj-khalife.webp",
+  updatedAt: "March 2026",
     contentHtml: `
     
       <p>Amazon UAE processed billions of dirhams in sales last year. Most of it went to a handful of sellers who figured out the system early. The market is still young, competition is still thin compared to Amazon US or Europe, and that window is closing — slowly, but it is closing.</p>
@@ -279,12 +277,14 @@ export const GUIDES: Guide[] = [
   },
 
   {
-    slug: "how-to-optimize-listing-amazon-uae",
-    title: "How To Optimize Listing Amazon UAE",
-    excerpt:
-      "Learn how to optimize your Amazon UAE product listings for ranking and conversions.",
-    heroImage: "/articles/how-to-optimize-listing-amazon-uae/new-product.webp",
-    updatedAt: "March 2026",
+  slug: "how-to-optimize-listing-amazon-uae",
+  title: "How To Optimize Listing Amazon UAE",
+  excerpt: "Learn how to optimize your Amazon UAE product listings for ranking and conversions.",
+  seoTitle: "How to Optimize Amazon UAE Listing",
+  seoDescription: "Complete guide to optimizing Amazon UAE listings including titles, bullets, images and backend keywords.",
+  ogImage: "/og/how-to-optimize-listing-amazon-uae.png",
+  heroImage: "/articles/how-to-optimize-listing-amazon-uae/new-product.webp",
+  updatedAt: "March 2026",
     contentHtml: `
    
       <p>Most new sellers on Amazon UAE think listing optimization means just writing a title, uploading a few pictures, and waiting for sales. That's not optimization — that's only publishing.</p>
@@ -492,13 +492,14 @@ export const GUIDES: Guide[] = [
   },
 
   {
-    slug: "how-to-send-products-amazon-warehouse",
-    title: "How To Send Products Amazon Warehouse",
-    excerpt:
-      "Complete guide to preparing and shipping inventory to Amazon warehouse.",
-    heroImage:
-      "/articles/how-to-send-products-amazon-warehouse/amazon-warehouse-inside.webp",
-      updatedAt: "March 2026",
+  slug: "how-to-send-products-amazon-warehouse",
+  title: "How to Send Products to Amazon Warehouse",
+  excerpt: "Learn how to ship inventory to Amazon FBA warehouse in UAE including shipping methods, labeling and preparation.",
+  seoTitle: "How to Send Products to Amazon Warehouse",
+  seoDescription: "Complete guide to sending products to Amazon warehouse including FBA shipment creation, labeling and logistics.",
+  ogImage: "/og/how-to-send-products-amazon-warehouse.png",
+  heroImage: "/articles/how-to-send-products-amazon-warehouse/amazon-warehouse-inside.webp",
+  updatedAt: "March 2026",
     contentHtml: `
    
     <p>Every new seller on Amazon UAE reaches the same point: their account is approved, their listing is live, and they have stock sitting at home or in a supplier's warehouse. Now what? This is where most people either waste weeks figuring it out through trial and error — or worse, get their first shipment rejected at the Amazon fulfillment center because they didn't follow the rules.</p>
@@ -712,12 +713,14 @@ export const GUIDES: Guide[] = [
   },
 
   {
-    slug: "how-to-rank-product-amazon-uae",
-    title: "How To Rank Product Amazon UAE",
-    excerpt:
-      "Complete Ranking Guide From a 4-year Amazon UAE & Noon UAE Brand Owner",
-    heroImage: "/articles/how-to-rank-product-amazon-uae/growing-arrow.webp",
-    updatedAt: "March 2026",
+  slug: "how-to-rank-product-amazon-uae",
+  title: "How to Rank Products on Amazon UAE",
+  excerpt: "Learn proven strategies to rank your Amazon UAE products higher using SEO, reviews and conversion optimization.",
+  seoTitle: "How to Rank Products on Amazon UAE",
+  seoDescription: "Step-by-step Amazon SEO strategy to rank your products on Amazon UAE using keyword optimization and ranking signals.",
+  ogImage: "/og/how-to-rank-product-amazon-uae.png",
+  heroImage: "/articles/how-to-rank-product-amazon-uae/growing-arrow.webp",
+  updatedAt: "March 2026",
     contentHtml: `
    
     <p>Every Amazon UAE seller asks the same question: how do I get my product to page one? Most guides tell you to optimize your title, add keywords, and run PPC ads. That advice is not wrong — but it is incomplete. After 4 years of selling on Amazon UAE, I can tell you the single most powerful thing I did to rank my products was not inside Amazon at all. It was social media. Bringing buyers from TikTok, Instagram, and Facebook directly to my Amazon listings changed everything — and in this guide I will show you exactly how.</p>
@@ -962,12 +965,14 @@ export const GUIDES: Guide[] = [
 ],
   },
   {
-    slug: "amazon-uae-price-strategy",
-    title: "Amazon UAE Pricing Strategy",
-    excerpt:
-      "Price for Profit, Not Just Sales",
-    heroImage: "/articles/amazon-uae-price-strategy/mobile-calculator.webp",
-    updatedAt: "March 2026",
+  slug: "amazon-uae-price-strategy",
+  title: "Amazon UAE Price Strategy",
+  excerpt: "Learn how to build a profitable pricing strategy for selling on Amazon UAE.",
+  seoTitle: "Amazon UAE Pricing Strategy Guide",
+  seoDescription: "Understand pricing strategies for Amazon UAE including competitive pricing, profit margins and price positioning.",
+  ogImage: "/og/amazon-uae-price-strategy.png",
+  heroImage: "/articles/amazon-uae-price-strategy/mobile-calculator.webp",
+  updatedAt: "March 2026",
     contentHtml: `
    
     <p><em>Complete Guide — From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -1196,9 +1201,11 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
 
 {
   slug: "how-to-find-winning-products-for-amazon-uae",
-  title: "How To Find Wining Products For Amazon UAE",
-  excerpt:
-    "Complete guide to finding the right product using real UAE demand, low competition, and profit checks.",
+  title: "How to Find Winning Products for Amazon UAE",
+  excerpt: "Learn how to find profitable and low-competition products to sell on Amazon UAE using real product research strategies.",
+  seoTitle: "How to Find Winning Products for Amazon UAE",
+  seoDescription: "Discover practical product research strategies to find winning products for Amazon UAE with strong demand and healthy profit margins.",
+  ogImage: "/og/how-to-find-winning-products-for-amazon-uae.png",
   heroImage: "/articles/how-to-find-winning-product-amazon-uae/finding-product.webp",
   updatedAt: "March 2026",
   contentHtml: `
@@ -1394,8 +1401,10 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   {
   slug: "amazon-uae-vs-noon-uae",
   title: "Amazon UAE vs Noon UAE",
-  excerpt:
-    "Where Should You Sell in 2026?",
+  excerpt: "Comparison guide between Amazon UAE and Noon UAE for sellers deciding which platform to choose.",
+  seoTitle: "Amazon UAE vs Noon UAE for Sellers",
+  seoDescription: "Detailed comparison between Amazon UAE and Noon UAE marketplace for sellers including fees, traffic and competition.",
+  ogImage: "/og/amazon-uae-vs-noon-uae.png",
   heroImage: "/articles/amazon-uae-vs-noon-uae/amazon-vs-noon.webp",
   updatedAt: "March 2026",
   contentHtml: `
@@ -1623,9 +1632,11 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
 
   {
   slug: "how-to-find-supplier-for-amazon-uae",
-  title: "How to Find Suppliers for Amazon UAE & Noon UAE",
-  excerpt:
-    "From a 4-year Amazon UAE & Noon UAE Brand Owner",
+  title: "How to Find a Supplier for Amazon UAE",
+  excerpt: "Step-by-step guide to finding reliable suppliers for Amazon UAE including Alibaba sourcing, negotiation and quality checks.",
+  seoTitle: "How to Find Supplier for Amazon UAE",
+  seoDescription: "Learn how to find reliable suppliers for Amazon UAE using Alibaba, Global Sources and direct factory sourcing methods.",
+  ogImage: "/og/how-to-find-supplier-for-amazon-uae.png",
   heroImage: "/articles/how-to-find-supplier-for-amazon-uae/laptop-transport.webp",
   updatedAt: "March 2026",
   contentHtml: `
@@ -1866,8 +1877,10 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
   {
   slug: "how-to-get-reviews-on-amazon-uae",
   title: "How to Get Reviews on Amazon UAE",
-  excerpt:
-    "The Real Strategy Every Seller Uses",
+  excerpt: "Learn safe and effective ways to get more customer reviews for your Amazon UAE products.",
+  seoTitle: "How to Get Reviews on Amazon UAE",
+  seoDescription: "Proven strategies to get legitimate Amazon UAE product reviews while following Amazon policies.",
+  ogImage: "/og/how-to-get-reviews-on-amazon-uae.png",
   heroImage: "/articles/how-to-get-reviews-amazon-uae/mobile-stars.webp",
   updatedAt: "March 2026",
   contentHtml: `
@@ -2102,8 +2115,11 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
 
 {
   slug: "how-to-run-ppc-amazon-uae",
-  title: "How to Run Amazon UAE PPC Ads",
-  excerpt: "The Complete Beginner to Advanced Advertising Guide",
+  title: "How to Run PPC on Amazon UAE",
+  excerpt: "Learn how to run Amazon PPC campaigns in UAE to increase visibility, traffic and sales.",
+  seoTitle: "How to Run Amazon PPC in UAE",
+  seoDescription: "Complete beginner guide to running Amazon PPC ads in UAE including keyword targeting and campaign optimization.",
+  ogImage: "/og/how-to-run-ppc-amazon-uae.png",
   heroImage: "/articles/how-to-run-ppc-amazon-uae/ppc-image.webp",
   updatedAt: "March 2026",
   contentHtml: `
@@ -2331,8 +2347,11 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
 },
   {
   slug: "how-to-use-social-media-for-product-sell",
-  title: "How to Use Social Media to Drive Traffic to Your Amazon UAE Listing",
-  excerpt: "The UAE Seller's Complete Social Media Strategy",
+  title: "How to Use Social Media for Product Selling",
+  excerpt: "Learn how to use social media platforms to promote and sell your Amazon products.",
+  seoTitle: "How to Use Social Media to Sell Amazon Products",
+  seoDescription: "Complete guide to using social media marketing to boost Amazon product sales and brand visibility.",
+  ogImage: "/og/how-to-use-social-media-for-product-sell.png",
   heroImage: "/articles/how-to-use-social-media/social-media-mobile.webp",
   updatedAt: "March 2026",
   contentHtml: `

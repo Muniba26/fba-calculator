@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: "FBA Calculator UAE & KSA",
       images: [
         {
-          url: guide.ogImage || "/og-image-1200x630.png",
+          url: guide.ogImage || guide.heroImage || "/og-image-1200x630.png",
           width: 1200,
           height: 630,
           alt: guide.title,
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: guide.seoTitle || guide.title,
       description: guide.seoDescription || guide.excerpt,
-      images: [guide.ogImage || "/og-image-1200x630.png"],
+      images: [guide.ogImage || guide.heroImage || "/og-image-1200x630.png"],
     },
   };
 }
@@ -84,9 +84,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function GuideSlugPage({ params }: PageProps) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
-const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
-
-const faqSchema = guide?.faq?.length
+  const faqSchema = guide?.faq?.length
   ? {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -100,6 +98,8 @@ const faqSchema = guide?.faq?.length
       })),
     }
   : null;
+const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
+
   if (!guide) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-10">
@@ -110,7 +110,6 @@ const faqSchema = guide?.faq?.length
       </main>
     );
   }
-
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       {faqSchema ? (
