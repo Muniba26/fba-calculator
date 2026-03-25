@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CalculatorPreview from "@/components/CalculatorPreview";
 import HomeProductResearchSection from "@/components/HomeProductResearchSection";
+import HomeFaqSection from "@/components/HomeFaqSection";
 
 export const metadata: Metadata = {
   title: "Amazon FBA Calculator UAE & KSA – Free Profit & Fee Tool",
@@ -77,6 +78,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <HomeFaqSection />
 
       {/* HOOK SECTION */}
       <HomeProductResearchSection />
@@ -103,7 +105,7 @@ export default function HomePage() {
     }),
   }}
   />
-    <script 
+<script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
@@ -112,34 +114,26 @@ export default function HomePage() {
       mainEntity: [
         {
           "@type": "Question",
-          name: "What does this Amazon FBA calculator include?",
+          name: "What is Amazon FBA calculator UAE?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "This calculator includes Amazon referral fees and FBA fulfillment fees for UAE and Saudi Arabia sellers. It shows selling price, Amazon fees, net proceeds, and margin per unit.",
+            text: "It helps UAE sellers calculate Amazon fees, profit and margins before selling.",
           },
         },
         {
           "@type": "Question",
-          name: "Does this calculator work for both UAE and Saudi Arabia?",
+          name: "Does this work for Saudi Arabia (KSA)?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The calculator supports both AED for UAE and SAR for Saudi Arabia, with separate fee logic for each marketplace.",
+            text: "Yes, this calculator supports both UAE and KSA marketplaces.",
           },
         },
         {
           "@type": "Question",
-          name: "Are VAT and PPC costs included in the calculator?",
+          name: "Is this calculator free?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No. This calculator currently includes referral fees and FBA fulfillment fees only. VAT and PPC costs are not included.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How do I calculate Amazon FBA profit?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "To calculate Amazon FBA profit, enter your product category, selling price, size tier, and weight bracket. The calculator will estimate Amazon fees and show your net proceeds and margin.",
+            text: "Yes, it is completely free with no signup required.",
           },
         },
       ],
