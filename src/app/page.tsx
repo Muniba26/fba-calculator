@@ -100,7 +100,7 @@ export default function HomePage() {
       offers: {
         "@type": "Offer",
         price: "0",
-        priceCurrency: "USD",
+        priceCurrency: "AED",
       },
     }),
   }}
