@@ -19,6 +19,7 @@ export type Guide = {
     question: string;
     answer: string;
   }[];
+  howToSteps?: string[];
 };
 
 export const GUIDES: Guide[] = [
@@ -274,6 +275,16 @@ export const GUIDES: Guide[] = [
       "Yes. Good product research helps you avoid weak products, crowded categories, and low-margin items before you invest money.",
   },
 ],
+howToSteps: [
+  "Choose what you want to sell and study demand in Amazon UAE.",
+  "Prepare your business documents and seller account details.",
+  "Register for an Amazon UAE seller account.",
+  "Decide whether you will use FBA or FBM.",
+  "Research product costs, Amazon fees, and expected profit margin.",
+  "Create optimized listings with strong titles, images, and bullet points.",
+  "Send inventory to Amazon or prepare your own fulfillment setup.",
+  "Launch the product and monitor sales, ads, and profitability.",
+],
   },
 
   {
@@ -488,6 +499,16 @@ export const GUIDES: Guide[] = [
     answer:
       "Yes. Sellers often improve titles, images, and bullets after reviewing traffic, conversion, and customer feedback.",
   },
+],
+howToSteps: [
+  "Research the main keyword and buyer search intent for your product.",
+  "Write a clear product title with the primary keyword naturally included.",
+  "Improve bullet points to explain benefits, features, and buyer value.",
+  "Use high-quality product images that show the item clearly.",
+  "Write a detailed product description with relevant secondary keywords.",
+  "Fill backend search terms with useful related keywords.",
+  "Place the product in the correct category and attributes.",
+  "Track ranking, clicks, and conversions, then improve weak sections.",
 ],
   },
 

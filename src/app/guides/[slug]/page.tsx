@@ -231,6 +231,27 @@ const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
     }),
   }}
 />
+{guide.howToSteps && guide.howToSteps.length > 0 && (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: guide.title,
+        description: guide.seoDescription || guide.excerpt,
+        image: guide.ogImage || guide.heroImage || "https://www.fbacalculatoruae.com/og-image-1200x630.png",
+        totalTime: "PT30M",
+        step: guide.howToSteps.map((step, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: step,
+          text: step,
+        })),
+      }),
+    }}
+  />
+)}
     </main>
   );
 }
