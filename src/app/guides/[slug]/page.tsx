@@ -202,6 +202,35 @@ const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
           </div>
         </div>
       </div>
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: guide.title,
+      description: guide.seoDescription || guide.excerpt,
+      author: {
+        "@type": "Organization",
+        name: "FBA Calculator UAE",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "FBA Calculator UAE",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.fbacalculatoruae.com/og-image-1200x630.png",
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `https://www.fbacalculatoruae.com/guides/${guide.slug}`,
+      },
+      url: `https://www.fbacalculatoruae.com/guides/${guide.slug}`,
+      inLanguage: "en",
+    }),
+  }}
+/>
     </main>
   );
 }
