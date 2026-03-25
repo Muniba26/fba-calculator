@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import CalculatorPreview from "@/components/CalculatorPreview";
 import HomeProductResearchSection from "@/components/HomeProductResearchSection";
 
+export const metadata: Metadata = {
+  title: "Amazon FBA Calculator UAE & KSA – Free Profit & Fee Tool",
+  description:
+    "Free Amazon FBA calculator for UAE and KSA sellers. Calculate referral fees, fulfillment fees, profit and margins instantly. No signup required.",
+};
 export default function HomePage() {
   return (
     <main className="px-6 md:px-10 lg:px-16">
@@ -12,43 +18,46 @@ export default function HomePage() {
           {/* TEXT */}
           <div className="max-w-xl">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-              Amazon FBA Profit <br /> Calculator
-            </h1>
+  Amazon FBA Calculator UAE & KSA
+</h1>
 
             {/* SEO TEXT */}
             <p className="mt-4 text-gray-600">
-              Calculate Amazon FBA profit, fees, and margins instantly for UAE &
-              KSA sellers. Get accurate Amazon referral fees, FBA charges, and
-              real profit estimates for UAE and Saudi Arabia — no paid courses,
-            </p>
+  Calculate Amazon referral fees, FBA charges, profit and margin instantly
+  for UAE and Saudi Arabia sellers. Free tool built for Amazon UAE & KSA
+  sellers with no signup required.
+</p>
 
             {/* ✅ CLICKABLE SEO LINE (TEXT ONLY, NO CARD) */}
-  <Link href="/guides/how-to-start-amazon-uae-2026" className="block ...">
+  <Link
+  href="/calculator"
+  className="block"
+>
   <h3 className="text-2xl font-bold text-neutral-900 underline hover:no-underline">
-    How To Start Amazon UAE in 2026
+    Free Amazon FBA Calculator for UAE & KSA Sellers
   </h3>
 </Link>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/calculator">
                 <button className="bg-black text-white px-6 py-3 rounded-full hover:opacity-90 transition">
-                  Open Calculator
+                  Calculate FBA Profit Now
                 </button>
               </Link>
 
               <Link href="/guides">
                 <button className="bg-white text-gray-900 px-6 py-3 rounded-full border hover:bg-black/5 transition">
-                  Read Guides
+                  Learn Amazon UAE & KSA Selling
                 </button>
               </Link>
             </div>
 
-            <p className="mt-4 text-xs text-bold-black-1000">
-              Free tool. Built for UAE & KSA sellers.
-            </p>
-            <p className="mt-4 text-xs text-black-bold-1000">
-              Used By Amazon Sellers across UAE & Saudi Arabia.
-            </p>
+            <p className="mt-4 text-sm font-medium text-gray-700">
+  Free Amazon FBA calculator for UAE & KSA sellers
+</p>
+<p className="mt-2 text-sm text-gray-600">
+  Estimate fees, profit and ROI in seconds — no signup required.
+</p>
           </div>
 
           {/* IMAGE */}

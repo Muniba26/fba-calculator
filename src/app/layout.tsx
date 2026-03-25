@@ -6,9 +6,12 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fbacalculatoruae.com"),
-  title: "FREE Amazon FBA Calculator UAE & KSA – Profit, Fees & Margin in 5 Seconds",
+  title: {
+  default: "FBA Calculator UAE & KSA",
+  template: "%s | FBA Calculator UAE",
+},
   description:
-    "Free Amazon FBA Calculator for UAE & KSA sellers. Instantly calculate referral fees, FBA costs, profit and margins before launching your product.",
+    "Free tools and guides for Amazon UAE and KSA sellers. Calculate FBA fees, profit and margins, and learn how to sell on Amazon in the UAE and Saudi Arabia.",
   keywords: [
     "amazon fba calculator uae",
     "amazon fba calculator saudi arabia",
