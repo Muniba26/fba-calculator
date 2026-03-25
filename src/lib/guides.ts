@@ -731,6 +731,16 @@ howToSteps: [
       "Yes. You should check storage, fulfillment, and referral fees before sending large quantities of inventory.",
   },
 ],
+howToSteps: [
+  "Ensure your Amazon seller account is active and your listing is live.",
+  "Choose FBA as your fulfillment method in Seller Central.",
+  "Create a shipping plan and select the products to send.",
+  "Print and apply FNSKU labels to each product.",
+  "Pack products according to Amazon packaging guidelines.",
+  "Choose a shipping carrier and send inventory to the assigned warehouse.",
+  "Track shipment status and confirm delivery in Seller Central.",
+  "Monitor inventory and ensure products become available for sale.",
+],
   },
 
   {
@@ -984,6 +994,16 @@ howToSteps: [
       "Yes. A weak listing usually wastes traffic, so optimization should come before aggressive ranking efforts.",
   },
 ],
+howToSteps: [
+  "Research high-volume keywords relevant to your product.",
+  "Optimize your product title with the main keyword.",
+  "Improve bullet points to increase conversion rate.",
+  "Use high-quality images that attract clicks.",
+  "Set a competitive price based on the market.",
+  "Generate initial sales using ads or promotions.",
+  "Encourage reviews from real customers.",
+  "Maintain strong sales velocity to improve ranking over time.",
+],
   },
   {
   slug: "amazon-uae-price-strategy",
@@ -1218,6 +1238,16 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
       "Yes. Many sellers adjust price based on conversion, competition, market demand, and profit performance.",
   },
 ],
+howToSteps: [
+  "Calculate your full product cost including Amazon fees.",
+  "Analyze competitor pricing in your category.",
+  "Decide your target profit margin before setting price.",
+  "Avoid pricing too low just to compete with others.",
+  "Test different price points to find the best conversion rate.",
+  "Monitor profit, sales, and competition regularly.",
+  "Adjust price based on demand, season, and performance.",
+  "Use your calculator to ensure profitability at every price level.",
+],
   },
 
 {
@@ -1416,6 +1446,16 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     answer:
       "A calculator helps you estimate fees and profit before buying stock, which reduces risk during product selection.",
   },
+],
+howToSteps: [
+  "Search for products with consistent demand on Amazon UAE.",
+  "Avoid saturated niches with heavy competition.",
+  "Analyze product reviews to find gaps and opportunities.",
+  "Check profit margins using FBA calculator before selecting product.",
+  "Choose lightweight and low-cost products for better margins.",
+  "Validate demand using keyword research tools.",
+  "Test small quantities before scaling inventory.",
+  "Focus on products that solve real customer problems.",
 ],
 },
 
@@ -1648,6 +1688,13 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     answer:
       "Compare traffic, competition, fees, delivery model, and profit margin before deciding where to focus.",
   },
+],
+howToSteps: [
+  "Understand the differences between Amazon UAE and Noon UAE marketplaces.",
+  "Compare fees including referral, fulfillment, and storage costs.",
+  "Analyze traffic and competition levels on both platforms.",
+  "Evaluate delivery models such as FBA vs Noon Express.",
+  "Choose the platform that matches your budget, product type, and strategy.",
 ],
 },
 
@@ -1893,6 +1940,13 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
       "Yes. A product may look cheap from a supplier, but marketplace fees can still make the final margin weak.",
   },
 ],
+howToSteps: [
+  "Decide whether you want private label or reselling.",
+  "Search suppliers on platforms like Alibaba or Global Sources.",
+  "Shortlist suppliers based on reviews, ratings, and experience.",
+  "Request samples to check product quality.",
+  "Negotiate pricing, MOQ, and shipping terms before placing bulk orders.",
+],
 },
 
   {
@@ -2132,6 +2186,13 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
       "Yes. A clear and accurate listing improves buyer expectations and can lead to fewer complaints and better review rates.",
   },
 ],
+howToSteps: [
+  "Ensure your product quality and listing are optimized first.",
+  "Use Amazon’s ‘Request a Review’ feature consistently.",
+  "Deliver fast shipping and excellent customer experience.",
+  "Follow up with customers using compliant messaging.",
+  "Avoid fake reviews or black-hat tactics to prevent account risk.",
+],
 },
 
 {
@@ -2345,27 +2406,34 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <p>For everything else in your Amazon UAE selling journey, read our complete guide series: <a href="/guides/how-to-find-winning-products-for-amazon-uae" style="color:#2563eb;text-decoration:underline;">How to Find Winning Products</a>, <a href="/guides/how-to-start-amazon-uae-2026" style="color:#2563eb;text-decoration:underline;">How to Start Selling on Amazon UAE</a>, <a href="/guides/how-to-optimize-listing-amazon-uae" style="color:#2563eb;text-decoration:underline;">How to List & Optimize Products</a>, <a href="/guides/how-to-rank-product-amazon-uae" style="color:#2563eb;text-decoration:underline;">How to Rank Your Product</a>, <a href="/guides/amazon-uae-price-strategy" style="color:#2563eb;text-decoration:underline;">Amazon UAE Pricing Strategy</a>, and <a href="/guides/how-to-get-reviews-on-amazon-uae" style="color:#2563eb;text-decoration:underline;">How to Get Reviews on Amazon UAE</a>.</p>
 
     <p><em>— Written by a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
+,
+   <h2>Frequently Asked Questions About Amazon UAE PPC</h2>
 
-    <h2>Frequently Asked Questions About Amazon UAE PPC</h2>
+<p>Direct answers to the most common Amazon PPC questions from UAE sellers.</p>
 
-    <p>Direct answers to the most common Amazon PPC questions from UAE sellers.</p>
+<h3>How much should I spend on Amazon PPC as a new UAE seller?</h3>
+<p>A realistic starting budget for a new Amazon UAE seller is AED 30 to AED 50 per day. This is enough to generate meaningful data within 2 to 3 weeks without excessive financial risk. Do not start with less than AED 20 per day — the data collected will be too limited to make good optimization decisions. Scale your budget upward only after you identify which keywords are converting profitably.</p>
 
-    <h3>How much should I spend on Amazon PPC as a new UAE seller?</h3>
-    <p>A realistic starting budget for a new Amazon UAE seller is AED 30 to AED 50 per day. This is enough to generate meaningful data within 2 to 3 weeks without excessive financial risk. Do not start with less than AED 20 per day — the data collected will be too limited to make good optimization decisions. Scale your budget upward only after you identify which keywords are converting profitably.</p>
+<h3>Does Amazon PPC directly improve organic ranking on Amazon UAE?</h3>
+<p>Yes — indirectly but significantly. Amazon's ranking algorithm rewards products that generate sales consistently for a keyword. PPC-driven sales for a specific keyword count toward your ranking for that keyword exactly the same as organic sales. This means a well-run PPC campaign does not just deliver paid sales — it builds the organic ranking that generates free sales over time. This is why experienced sellers view PPC as a ranking investment, not just an advertising cost.</p>
 
-    <h3>Does Amazon PPC directly improve my organic ranking on Amazon UAE?</h3>
-    <p>Yes — indirectly but significantly. Amazon's ranking algorithm rewards products that generate sales consistently for a keyword. PPC-driven sales for a specific keyword count toward your ranking for that keyword exactly the same as organic sales. This means a well-run PPC campaign does not just deliver paid sales — it builds the organic ranking that generates free sales over time. This is why experienced sellers view PPC as a ranking investment, not just an advertising cost.</p>
+<h3>What is a good ACOS for Amazon UAE PPC?</h3>
+<p>A good ACOS depends on your product's profit margin. Calculate your break-even ACOS first — this is your net profit margin percentage after all fees. Any ACOS below your break-even means your campaigns are profitable. For most Amazon UAE sellers targeting a 25% to 30% net margin, an ACOS between 15% and 25% is considered strong. During a product launch, accepting a higher ACOS of 30% to 40% is reasonable because you are also buying ranking and reviews — not just immediate profit.</p>
 
-    <h3>What is a good ACoS for Amazon UAE PPC?</h3>
-    <p>A good ACoS depends on your product's profit margin. Calculate your break-even ACoS first — this is your net profit margin percentage after all fees. Any ACoS below your break-even means your campaigns are profitable. For most Amazon UAE sellers targeting a 25% to 30% net margin, an ACoS between 15% and 25% is considered strong. During a product launch, accepting a higher ACoS of 30% to 40% is reasonable because you are also buying ranking and reviews — not just immediate profit.</p>
+<h3>Should I run PPC on Noon UAE as well?</h3>
+<p>Noon UAE also offers a paid advertising platform for sellers. However, because organic ranking on Noon is significantly easier than on Amazon UAE, many sellers find their Noon products rank organically without heavy advertising investment. If your Noon listing is already ranking well organically, focus your advertising budget on Amazon UAE where competition is stronger and paid visibility has a bigger impact. Use Noon ads selectively for new product launches or to defend positions in competitive categories.</p>
 
-    <h3>Should I run PPC on Noon UAE as well?</h3>
-    <p>Noon UAE also offers a paid advertising platform for sellers. However, because organic ranking on Noon is significantly easier than on Amazon UAE, many sellers find that their Noon products rank organically without heavy advertising investment. If your Noon listing is already ranking well organically, focus your advertising budget on Amazon UAE where competition is stronger and paid visibility has a bigger impact. Use Noon advertising selectively for new product launches or to defend positions in competitive categories.</p>
-
-    <h3>Can I run PPC if my product has no reviews yet?</h3>
-    <p>Yes — and you should. PPC is one of the primary tools for generating your first sales and first reviews as a new listing. A product with zero reviews will have a lower click-through rate and conversion rate than an established product — meaning your ACoS will be higher during this phase. Accept this as the cost of launching. Once your first 5 to 10 reviews are established, your conversion rate will improve, your ACoS will decrease, and your campaigns will become significantly more efficient.</p>
+<h3>Can I run PPC if my product has no reviews yet?</h3>
+<p>Yes — and you should. PPC is one of the primary tools for generating your first sales and first reviews as a new listing. A product with zero reviews will have a lower click-through rate and conversion rate than an established product — meaning your ACOS will be higher during this phase. Accept this as the cost of launching. Once your first 5 to 10 reviews are established, your conversion rate will improve, your ACOS will decrease, and your campaigns will become significantly more efficient.</p>
   `,
-},
+howToSteps: [
+  "Set up your first Sponsored Products campaign.",
+  "Start with automatic targeting to gather data.",
+  "Analyze search term reports to find converting keywords.",
+  "Create manual campaigns with high-performing keywords.",
+  "Optimize bids and budget regularly to improve ROI.",
+],
+}, 
   {
   slug: "how-to-use-social-media-for-product-sell",
   title: "How to Use Social Media for Product Selling",
@@ -2562,7 +2630,14 @@ If your product naturally sits around AED 50–55, consider pricing it at AED 49
     <h3>Should I link directly to my Amazon UAE listing from social media?</h3>
     <p>Yes — always link directly to your Amazon UAE product listing page. Do not link to your Amazon storefront or to Amazon's homepage. The more steps between the buyer and the purchase, the more drop-off you will experience. A direct product page link gives the buyer one click to purchase. Place this link in your bio on every platform and include it in every video description and post caption where the platform allows.</p>
   `,
-},
+howToSteps: [
+  "Choose the right platforms like Instagram, TikTok, and Facebook.",
+  "Create engaging content showcasing your product.",
+  "Drive traffic from social media to your Amazon listing.",
+  "Collaborate with influencers to increase reach.",
+  "Track performance and optimize your content strategy.",
+],
+  },
 ];
 
 export function getGuideBySlug(slug: string) {
