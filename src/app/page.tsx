@@ -157,6 +157,33 @@ export default function HomePage() {
     }),
   }}
 />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Amazon FBA Calculator UAE & KSA",
+      url: "https://www.fbacalculatoruae.com/",
+      description:
+        "Free Amazon FBA calculator for UAE and KSA sellers. Calculate referral fees, fulfillment fees, profit and margins instantly.",
+      inLanguage: "en",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "FBA Calculator UAE",
+        url: "https://www.fbacalculatoruae.com",
+      },
+      about: {
+        "@type": "Thing",
+        name: "Amazon FBA Calculator for UAE and KSA sellers",
+      },
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://www.fbacalculatoruae.com/og-image-1200x630.png",
+      },
+    }),
+  }}
+/>
     </main>
   );
 }
