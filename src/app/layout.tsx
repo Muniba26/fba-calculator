@@ -75,7 +75,38 @@ export default function RootLayout({
             {children}
           </div>
         </div>
+<Script
+  id="website-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "FBA Calculator UAE",
+      url: "https://www.fbacalculatoruae.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.fbacalculatoruae.com/guides?query={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    }),
+  }}
+/>
 
+<Script
+  id="organization-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "FBA Calculator UAE",
+      url: "https://www.fbacalculatoruae.com",
+      logo: "https://www.fbacalculatoruae.com/icon-512.png",
+      sameAs: [],
+    }),
+  }}
+/>
         <SiteFooter />
       </body>
     </html>
