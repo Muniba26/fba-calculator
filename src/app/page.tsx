@@ -5,10 +5,10 @@ import CalculatorPreview from "@/components/CalculatorPreview";
 import HomeProductResearchSection from "@/components/HomeProductResearchSection";
 import HomeFaqSection from "@/components/HomeFaqSection";
 
-export const metadata: Metadata = {
-  title: "Amazon FBA Calculator UAE & KSA – Free Profit & Fee Tool",
+export const metadata = {
+  title: "Free Amazon FBA Calculator UAE (2026) – Profit & Fees Instantly",
   description:
-    "Free Amazon FBA calculator for UAE and KSA sellers. Calculate referral fees, fulfillment fees, profit and margins instantly. No signup required.",
+    "Free Amazon FBA Calculator for UAE & KSA sellers. Instantly calculate fees, profit, and margins. No signup required. Fast, accurate, and easy to use.",
 };
 export default function HomePage() {
   return (
