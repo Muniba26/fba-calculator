@@ -20,6 +20,8 @@ export type Guide = {
     answer: string;
   }[];
   howToSteps?: string[];
+  relatedSlugs?: string[];
+  
 };
 
 export const GUIDES: Guide[] = [
@@ -32,6 +34,12 @@ export const GUIDES: Guide[] = [
   ogImage: "/og/how-to-start-amazon-uae-2026.png",
   heroImage: "/articles/how-to-start-amazon-uae-2026/dubai-burj-khalife.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-find-winning-products-for-amazon-uae",
+  "how-to-find-supplier-for-amazon-uae",
+  "how-to-optimize-listing-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+],
     contentHtml: `
     
       <p>Amazon UAE processed billions of dirhams in sales last year. Most of it went to a handful of sellers who figured out the system early. The market is still young, competition is still thin compared to Amazon US or Europe, and that window is closing — slowly, but it is closing.</p>
@@ -176,7 +184,6 @@ export const GUIDES: Guide[] = [
       <h2>Step 4: Set Up Seller Central and List Your First Product</h2>
 
       <p>Once your account is approved, you'll have access to Seller Central — your command centre for everything Amazon-related. Inventory, orders, payments, advertising, account health — it all lives here. When you're ready to create your first product listing, read our detailed guide on <a href="/guides/how-to-list-optimize-products-on-amazon-uae" style="color:#2563eb;text-decoration:underline;">How to List & Optimize Products on Amazon UAE</a> — it covers everything from writing your title to running social media ads.</p>
-
       <h3>Do these immediately after approval:</h3>
       <ol>
         <li>Set your store name carefully — this is what customers see and is part of your brand identity from day one</li>
@@ -296,6 +303,12 @@ howToSteps: [
   ogImage: "/og/how-to-optimize-listing-amazon-uae.png",
   heroImage: "/articles/how-to-optimize-listing-amazon-uae/new-product.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-get-reviews-on-amazon-uae",
+  "amazon-uae-vs-noon-uae",
+  "how-to-start-amazon-uae-2026",
+  "how-to-run-ppc-amazon-uae",
+],
     contentHtml: `
    
       <p>Most new sellers on Amazon UAE think listing optimization means just writing a title, uploading a few pictures, and waiting for sales. That's not optimization — that's only publishing.</p>
@@ -521,6 +534,12 @@ howToSteps: [
   ogImage: "/og/how-to-send-products-amazon-warehouse.png",
   heroImage: "/articles/how-to-send-products-amazon-warehouse/amazon-warehouse-inside.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-start-amazon-uae-2026",
+  "how-to-find-supplier-for-amazon-uae",
+  "amazon-uae-price-strategy",
+  "how-to-find-winning-products-for-amazon-uae",
+],
     contentHtml: `
    
     <p>Every new seller on Amazon UAE reaches the same point: their account is approved, their listing is live, and they have stock sitting at home or in a supplier's warehouse. Now what? This is where most people either waste weeks figuring it out through trial and error — or worse, get their first shipment rejected at the Amazon fulfillment center because they didn't follow the rules.</p>
@@ -752,6 +771,12 @@ howToSteps: [
   ogImage: "/og/how-to-rank-product-amazon-uae.png",
   heroImage: "/articles/how-to-rank-product-amazon-uae/growing-arrow.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-optimize-listing-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+  "how-to-get-reviews-on-amazon-uae",
+  "how-to-use-social-media-for-product-sell",
+],
     contentHtml: `
    
     <p>Every Amazon UAE seller asks the same question: how do I get my product to page one? Most guides tell you to optimize your title, add keywords, and run PPC ads. That advice is not wrong — but it is incomplete. After 4 years of selling on Amazon UAE, I can tell you the single most powerful thing I did to rank my products was not inside Amazon at all. It was social media. Bringing buyers from TikTok, Instagram, and Facebook directly to my Amazon listings changed everything — and in this guide I will show you exactly how.</p>
@@ -1014,6 +1039,12 @@ howToSteps: [
   ogImage: "/og/amazon-uae-price-strategy.png",
   heroImage: "/articles/amazon-uae-price-strategy/mobile-calculator.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-start-amazon-uae-2026",
+  "how-to-find-winning-products-for-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+  "how-to-send-products-amazon-warehouse",
+],
     contentHtml: `
    
     <p><em>Complete Guide — From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -1259,6 +1290,12 @@ howToSteps: [
   ogImage: "/og/how-to-find-winning-products-for-amazon-uae.png",
   heroImage: "/articles/how-to-find-winning-product-amazon-uae/finding-product.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-find-supplier-for-amazon-uae",
+  "amazon-uae-price-strategy",
+  "how-to-start-amazon-uae-2026",
+  "how-to-send-products-amazon-warehouse",
+],
   contentHtml: `
   
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -1468,6 +1505,12 @@ howToSteps: [
   ogImage: "/og/amazon-uae-vs-noon-uae.png",
   heroImage: "/articles/amazon-uae-vs-noon-uae/amazon-vs-noon.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-start-amazon-uae-2026",
+  "amazon-uae-price-strategy",
+  "how-to-find-winning-products-for-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+],
   contentHtml: `
   
     <p><em>From a 4-year Brand Owner on Both Platforms</em></p>
@@ -1707,6 +1750,12 @@ howToSteps: [
   ogImage: "/og/how-to-find-supplier-for-amazon-uae.png",
   heroImage: "/articles/how-to-find-supplier-for-amazon-uae/laptop-transport.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-find-winning-products-for-amazon-uae",
+  "how-to-start-amazon-uae-2026",
+  "how-to-send-products-amazon-warehouse",
+  "amazon-uae-price-strategy",
+],
   contentHtml: `
  
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -1958,6 +2007,12 @@ howToSteps: [
   ogImage: "/og/how-to-get-reviews-on-amazon-uae.png",
   heroImage: "/articles/how-to-get-reviews-amazon-uae/mobile-stars.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-optimize-listing-amazon-uae",
+  "how-to-rank-product-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+  "how-to-start-amazon-uae-2026",
+],
   contentHtml: `
   
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -2204,6 +2259,12 @@ howToSteps: [
   ogImage: "/og/how-to-run-ppc-amazon-uae.png",
   heroImage: "/articles/how-to-run-ppc-amazon-uae/ppc-image.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-optimize-listing-amazon-uae",
+  "how-to-get-reviews-on-amazon-uae",
+  "amazon-uae-vs-noon-uae",
+  "how-to-start-amazon-uae-2026",
+],
   contentHtml: `
     <p><strong>The Complete Beginner to Advanced Advertising Guide</strong></p>
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
@@ -2443,6 +2504,12 @@ howToSteps: [
   ogImage: "/og/how-to-use-social-media-for-product-sell.png",
   heroImage: "/articles/how-to-use-social-media/social-media-mobile.webp",
   updatedAt: "March 2026",
+  relatedSlugs: [
+  "how-to-rank-product-amazon-uae",
+  "how-to-optimize-listing-amazon-uae",
+  "how-to-run-ppc-amazon-uae",
+  "how-to-start-amazon-uae-2026",
+],
   contentHtml: `
     <p><strong>The UAE Seller's Complete Social Media Strategy</strong></p>
     <p><em>From a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>

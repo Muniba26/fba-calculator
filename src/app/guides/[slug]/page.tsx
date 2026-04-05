@@ -5,6 +5,7 @@ import BackToGuides from "@/components/BackToGuides";
 import RelatedGuides from "@/components/RelatedGuides";
 import ProductResearchLinks from "@/components/ProductResearchLinks";
 import CalculatorPreview from "@/components/CalculatorPreview";
+import AutoRelatedGuides from "@/components/AutoRelatedGuides";
 
 function slugify(text: string) {
   return text
@@ -193,6 +194,10 @@ const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
             <RelatedGuides currentSlug={guide.slug} />
           </div>
 
+          <div className="mt-14">
+       <AutoRelatedGuides relatedSlugs={guide.relatedSlugs} />
+         </div>
+        
           <div className="mt-14">
             <ProductResearchLinks />
           </div>
