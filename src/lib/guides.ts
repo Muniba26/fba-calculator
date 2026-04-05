@@ -293,7 +293,298 @@ howToSteps: [
   "Launch the product and monitor sales, ads, and profitability.",
 ],
   },
+{
+  slug: "how-to-start-amazon-ksa-2026",
+  title: "How to Start Selling on Amazon KSA in 2026",
+  excerpt:
+    "Step-by-step beginner guide to start selling on Amazon Saudi Arabia (KSA) in 2026, including registration, documents, CR, Iqama, bank verification, and launch strategy.",
+  seoTitle:
+    "How to Start Selling on Amazon KSA in 2026 | Complete Beginner Guide",
+  seoDescription:
+    "Learn how to start selling on Amazon Saudi Arabia (KSA) in 2026 with this step-by-step beginner guide covering registration, CR, Iqama, bank account setup, verification, selling plans, and launch steps.",
+  ogImage: "/og/how-to-start-amazon-ksa-2026.png",
+  heroImage: "/articles/how-to-start-amazon-ksa-in-2026/hero-image.webp",
+  updatedAt: "April 2026",
+  relatedSlugs: [
+    "how-to-start-amazon-uae-2026",
+    "how-to-find-winning-products-for-amazon-uae",
+    "how-to-find-supplier-for-amazon-uae",
+    "how-to-run-ppc-amazon-uae",
+  ],
+  contentHtml: `
+    <p><em>Written by an Active Amazon UAE & KSA Brand Owner</em></p>
 
+    <p>Most sellers spend months trying to crack one Amazon marketplace. They fight for ranking, test products, lose money on the wrong categories, and slowly figure out what works. Then they stop — as if one marketplace is the finish line.</p>
+
+    <p>It’s not. If you are already selling on Amazon UAE, the Saudi Arabia marketplace is not a new challenge — it is a direct extension of what you have already built. Same platform. Same skills. Same products. But a market of 35 million people, higher average order values, and a fraction of the competition you faced in UAE.</p>
+
+    <p>I am an active brand owner on both Amazon UAE and Amazon KSA. In this guide I am giving you everything I know — the real requirements, the exact process, and the things nobody else tells you about entering the Saudi market. No filler. No theory. Just what actually works in 2026.</p>
+
+
+    <h2>Why Sell on Amazon Saudi Arabia in 2026?</h2>
+
+    <p>Saudi Arabia has a population of over 35 million people, with more than 70% under the age of 35. This demographic is highly engaged with digital commerce — Saudi consumers shop online frequently, spend generously, and have strong brand awareness. The Saudi government's Vision 2030 initiative actively supports e-commerce growth, digital business infrastructure, and logistics development across the Kingdom.</p>
+
+        <figure style="margin:30px 0;">
+  <img
+    src="/articles/how-to-start-amazon-ksa-in-2026/saudi-marke.webp"
+    alt="Saudi Arabia e-commerce market opportunity for Amazon KSA sellers"
+    style="width:100%;height:auto;border-radius:18px;"
+  />
+</figure>
+    <ol>
+      <li>Saudi Arabia is the largest e-commerce market in the GCC region by total market size.</li>
+      <li>Amazon.sa is the dominant e-commerce platform in the Kingdom, with a rapidly growing Prime membership base.</li>
+      <li>High average order values — Saudi buyers are comfortable purchasing premium-priced products online.</li>
+      <li>Growing FBA infrastructure in Saudi Arabia means faster delivery and better customer experience.</li>
+      <li>Less seller competition than Amazon UAE in many product categories — opportunity to rank faster.</li>
+    </ol>
+
+    <div style="border-left:4px solid #ea7c14;padding-left:18px;margin:22px 0;font-style:italic;">
+      <strong style="color:#ea7c14;font-style:normal;">Key insight:</strong>
+      Sellers who are already established on Amazon UAE have a significant advantage entering Amazon KSA — their product knowledge, listing skills, and sourcing relationships transfer directly to the Saudi marketplace.
+    </div>
+
+    <h2>Already on Amazon UAE? KSA Is Already Yours to Claim</h2>
+
+    <p>Here is what most guides get wrong: they treat Amazon KSA as a separate registration process requiring a stack of new documents and a fresh start. The reality is completely different. Amazon operates a unified GCC policy — if you are already registered and selling on Amazon UAE, access to the Saudi Arabia marketplace is available directly through your existing UAE Seller Central account. You do not submit new documents. You do not go through a separate approval process. You activate the marketplace and start listing.</p>
+
+    <p>If you are starting from scratch and registering fresh on Amazon KSA, this guide walks you through every document, every step, and every requirement. Either way, by the end of this guide you will know exactly what to do next.</p>
+
+    <p>If you are still setting up your UAE side, read our <a href="/guides/how-to-start-amazon-uae-2026" style="color:#2563eb;text-decoration:underline;">complete Amazon UAE beginner guide</a>.</p>
+<figure style="margin:30px 0;">
+  <img
+    src="/articles/how-to-start-amazon-ksa-in-2026/documents.webp"
+    alt="Documents needed to register as an Amazon KSA seller"
+    style="width:100%;height:auto;border-radius:18px;"
+  />
+</figure>
+     
+    <h2>What You Need Before You Register</h2>
+
+    <p>Amazon KSA requires specific documents and information before your seller account can be approved. All requirements below are based on the source material you provided. Prepare everything before starting your registration to avoid delays.</p>
+<figure style="margin:30px 0;">
+  <img
+    src="/articles/how-to-start-amazon-ksa-in-2026/registration.webp"
+    alt="Amazon KSA seller registration process step by step"
+    style="width:100%;height:auto;border-radius:18px;"
+  />
+</figure>
+     
+    <h3>Basic Registration Requirements</h3>
+
+    <ol>
+      <li>A valid business email address — or you can use an existing Amazon customer account email.</li>
+      <li>A phone number where you can be reached for verification.</li>
+      <li>A bank account where Amazon can deposit your sales proceeds.</li>
+    </ol>
+
+    <h3>Identity Documents Amazon KSA Accepts</h3>
+
+    <p>Amazon KSA accepts the following identity documents. Digital versions of national IDs and Iqama cards are accepted.</p>
+
+    <ol>
+      <li>Saudi National ID</li>
+      <li>Resident ID — Iqama card</li>
+      <li>National ID cards issued by other GCC countries — UAE, Oman, Bahrain, Kuwait, or Qatar</li>
+      <li>For Professional sellers: passport, driving license, or military identification card</li>
+    </ol>
+
+    <p><strong>Important:</strong> Digital National ID and digital Iqama cards are accepted, so you do not need a physical document scan if you have a valid digital version.</p>
+
+    <h3>Documents for Business Sellers</h3>
+
+    <ol>
+      <li>A valid, clear copy of your Commercial Registration (CR).</li>
+      <li>A valid, clear copy of your National ID or Resident ID (Iqama).</li>
+      <li>If the names on your Commercial Registration and National ID do not match, you can provide a Power of Attorney document.</li>
+    </ol>
+
+    <h3>Documents for Individual Sellers</h3>
+
+    <ol>
+      <li>Both sides of your valid National ID or Resident ID (Iqama) in color.</li>
+      <li>A bank or credit card statement including your name, account number, and statement date — issued within the last 180 days.</li>
+    </ol>
+
+    <p><strong>Important:</strong> Saudi rules for online commercial activity may require valid legal authorization such as a Commercial Registration, even for many individual-led businesses.</p>
+
+    <h3>Proof of Address Documents</h3>
+
+    <p>The following are accepted, as long as they were issued within the last 180 days:</p>
+
+    <ol>
+      <li>Bank statement for a checking, savings, or loan account</li>
+      <li>Credit card statement</li>
+      <li>Account statement from Payoneer, Hyperwallet, World First, or Alipay</li>
+      <li>Utility bills — gas, water, electricity, TV, internet, mobile phone, or landline phone</li>
+      <li>Rent or lease agreement documents</li>
+    </ol>
+
+    <h3>Business Verification Documents</h3>
+
+    <ol>
+      <li>Recently issued or renewed business license</li>
+      <li>Tax clearance certificate or VAT registration document</li>
+      <li>Official registry extract showing the business is active</li>
+    </ol>
+
+    <h3>Bank Account Requirements</h3>
+
+    <ol>
+      <li>The name on your bank account must exactly match your first and last name in Amazon Seller Central.</li>
+      <li>You must upload a bank document issued within the last 90 days that includes the bank name and logo, your full name, and your account number or IBAN.</li>
+      <li>Digital bank accounts are accepted, including Payoneer, Hyperwallet, World First, and Alipay.</li>
+    </ol>
+
+    <p>Before choosing any product, use our <a href="/" style="color:#2563eb;text-decoration:underline;">Amazon FBA Calculator UAE</a> to estimate your real fees, margin, and launch economics.</p>
+
+    <h2>Individual vs Professional Selling Plan</h2>
+
+    <p>The difference between the two plans on Amazon KSA is smaller than most people think. There is no monthly fee on either plan. Both Individual and Professional sellers can run PPC campaigns, list products, use FBA, and access core selling tools.</p>
+
+    <p>The biggest practical difference is A+ Content. If your brand is registered properly, the Professional plan gives you access to enhanced listing pages that can improve conversion rate.</p>
+
+    <h3>Individual Selling Plan</h3>
+
+    <ol>
+      <li>No monthly subscription fee</li>
+      <li>Can list unlimited products and run PPC advertising campaigns</li>
+      <li>Access to standard selling tools, FBA, and reporting</li>
+      <li>A+ Content is not available</li>
+    </ol>
+
+    <h3>Professional Selling Plan</h3>
+
+    <ol>
+      <li>No monthly subscription fee</li>
+      <li>Can list unlimited products and run PPC advertising campaigns</li>
+      <li>Access to standard selling tools, FBA, and reporting</li>
+      <li>A+ Content is available for eligible brand-registered sellers</li>
+    </ol>
+
+    <div style="border-left:4px solid #ea7c14;padding-left:18px;margin:22px 0;font-style:italic;">
+      <strong style="color:#ea7c14;font-style:normal;">From experience:</strong>
+      If your brand is properly registered, go Professional from day one. A+ Content can make a real difference to how your listing looks and converts.
+    </div>
+
+    <h2>The Verification Process</h2>
+
+    <p>After submitting your registration and documents, Amazon KSA verifies your identity and business information.</p>
+
+    <ol>
+      <li>You need identity and proof-of-address documents prepared in advance.</li>
+      <li>Use a device with a front-facing camera and microphone.</li>
+      <li>Google Chrome or Safari usually works best for the verification session.</li>
+      <li>Straightforward applications may be approved quickly, while video verification cases can take up to 2 business days.</li>
+    </ol>
+
+    <p>The most common reason for delay is mismatched names between documents, expired documentation, or unclear uploads.</p>
+
+    <h2>Step-by-Step: How to Register on Amazon KSA</h2>
+
+    <ol>
+      <li>Go to sell.amazon.sa and click “Start Selling”.</li>
+      <li>Enter your business email address or sign in with an existing Amazon account.</li>
+      <li>Enter your phone number for SMS verification.</li>
+      <li>Choose your selling plan — Individual or Professional.</li>
+      <li>Enter your business information, including legal name and address.</li>
+      <li>Upload your identity documents.</li>
+      <li>Upload your proof of address document.</li>
+      <li>Enter your bank account details for payouts.</li>
+      <li>Upload your bank verification document.</li>
+      <li>Complete the identity verification session.</li>
+      <li>Wait for account approval.</li>
+      <li>Once approved, log in to Seller Central and create your first listing.</li>
+    </ol>
+
+    <p>After registration, your next priority is product selection. Read our <a href="/guides/how-to-find-winning-products-for-amazon-uae" style="color:#2563eb;text-decoration:underline;">winning product research guide</a> before investing in stock.</p>
+
+    <h2>Amazon UAE vs Amazon KSA — Key Differences</h2>
+
+    <figure style="margin:30px 0;">
+  <img
+    src="/articles/how-to-start-amazon-ksa-in-2026/uae-vs-sa.webp"
+    alt="Comparison between Amazon UAE and Amazon KSA marketplaces"
+    style="width:100%;height:auto;border-radius:18px;"
+  />
+</figure>
+
+    <ol>
+      <li>Amazon KSA has less seller competition in many categories.</li>
+      <li>Saudi buyers often have stronger purchasing power and higher average order values.</li>
+      <li>Arabic content matters much more in the Saudi market.</li>
+      <li>Saudi VAT is 15%, compared to UAE’s 5%.</li>
+      <li>Shipping and logistics infrastructure continues to improve under Vision 2030.</li>
+      <li>The Saudi marketplace feels familiar, but CR and Iqama rules matter more.</li>
+    </ol>
+
+    <p>If you are comparing marketplaces, read our <a href="/guides/amazon-uae-vs-noon-uae" style="color:#2563eb;text-decoration:underline;">Amazon UAE vs Noon UAE comparison</a>.</p>
+
+    <h2>Final Word — Start the Right Way</h2>
+
+    <p>Amazon Saudi Arabia is a genuine opportunity in 2026. The market is large, growing, and less saturated than many global Amazon marketplaces. The key to a successful launch is preparation — have your documents ready, choose the right plan, and make sure every detail matches your supporting documents exactly.</p>
+
+    <p>After registration, continue with our <a href="/guides/how-to-find-supplier-for-amazon-uae" style="color:#2563eb;text-decoration:underline;">supplier guide</a> and our <a href="/guides/how-to-run-ppc-amazon-uae" style="color:#2563eb;text-decoration:underline;">Amazon PPC guide</a> to build your KSA launch properly.</p>
+
+    <p><em>Based on the source document you provided for Amazon KSA 2026 setup and verification steps.</em></p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>Can I sell on Amazon KSA if I am based in UAE?</h3>
+    <p>Yes. If you are already selling on Amazon UAE, access to the Saudi marketplace is often available through your existing GCC Seller Central setup.</p>
+
+    <h3>Is a Commercial Registration mandatory for individual sellers on Amazon KSA?</h3>
+    <p>In many practical cases, yes. Saudi online commercial activity usually requires valid legal authorization, and that often means a Commercial Registration.</p>
+
+    <h3>How long does Amazon KSA seller account verification take?</h3>
+    <p>Straightforward applications may be approved quickly, while accounts that require video verification can take up to 2 business days.</p>
+
+    <h3>Can I use a digital Iqama for Amazon KSA registration?</h3>
+    <p>Yes. Digital National ID and digital Iqama cards are accepted as valid identity documents.</p>
+
+    <h3>What bank accounts are accepted for Amazon KSA payouts?</h3>
+    <p>Both traditional and digital bank accounts are accepted, including Payoneer, Hyperwallet, World First, and Alipay, as long as the account holder name matches your Amazon account exactly.</p>
+  `,
+  faq: [
+    {
+      question: "Can I sell on Amazon KSA if I am based in UAE?",
+      answer:
+        "Yes. If you are already selling on Amazon UAE, access to the Saudi marketplace is often available through your existing GCC Seller Central setup.",
+    },
+    {
+      question: "Is a Commercial Registration mandatory for individual sellers on Amazon KSA?",
+      answer:
+        "In many practical cases, yes. Saudi online commercial activity usually requires valid legal authorization, and that often means a Commercial Registration.",
+    },
+    {
+      question: "How long does Amazon KSA seller account verification take?",
+      answer:
+        "Straightforward applications may be approved quickly, while accounts that require video verification can take up to 2 business days.",
+    },
+    {
+      question: "Can I use a digital Iqama for Amazon KSA registration?",
+      answer:
+        "Yes. Digital National ID and digital Iqama cards are accepted as valid identity documents.",
+    },
+    {
+      question: "What bank accounts are accepted for Amazon KSA payouts?",
+      answer:
+        "Both traditional and digital bank accounts are accepted, including Payoneer, Hyperwallet, World First, and Alipay, as long as the account holder name matches your Amazon account exactly.",
+    },
+  ],
+  howToSteps: [
+    "Prepare your email address, phone number, and payout bank account.",
+    "Choose whether you will register as an individual or business seller.",
+    "Collect your identity documents such as National ID or Iqama.",
+    "Prepare your proof of address and bank verification documents.",
+    "Go to sell.amazon.sa and start the registration process.",
+    "Select your selling plan and enter your legal business information.",
+    "Upload your identity and address documents clearly.",
+    "Complete account verification and wait for approval.",
+    "Create your first listing and prepare your launch strategy.",
+  ],
+},
   {
   slug: "how-to-optimize-listing-amazon-uae",
   title: "How To Optimize Listing Amazon UAE",
