@@ -24,9 +24,9 @@ export default function HomePage() {
 
             {/* SEO TEXT */}
             <p className="mt-4 text-gray-600">
-  Calculate Amazon referral fees, FBA charges, profit and margin instantly
-  for UAE and Saudi Arabia sellers. Free tool built for Amazon UAE & KSA
-  sellers with no signup required.
+  Use our free Amazon FBA Calculator UAE & KSA to calculate Amazon fees,
+  seller profit, revenue and margins instantly. The most accurate Amazon fee
+  calculator for UAE and Saudi Arabia sellers in 2026.
 </p>
 
             {/* ✅ CLICKABLE SEO LINE (TEXT ONLY, NO CARD) */}
