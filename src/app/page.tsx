@@ -6,9 +6,8 @@ import HomeProductResearchSection from "@/components/HomeProductResearchSection"
 import HomeFaqSection from "@/components/HomeFaqSection";
 
 export const metadata = {
-  title: "Amazon FBA Calculator UAE & KSA (2026)|Free Amazon Fee,Profit & Revenue Calculator",
-  description:
-    "Free Amazon FBA Calculator for UAE and KSA sellers. Instantly calculate Amazon fees, seller profit, revenue, margins, fulfillment costs and net earnings for Amazon UAE and Saudi Arabia in 2026.",
+  title: "Amazon FBA Calculator UAE (2026) – Calculate Fees & Profit Instantly",
+  description: "Free Amazon UAE FBA calculator. Estimate fees, profit margins, and costs before selling your product."
 };
 export default function HomePage() {
   return (
