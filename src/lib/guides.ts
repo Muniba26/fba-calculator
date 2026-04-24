@@ -3225,7 +3225,8 @@ howToSteps: [
 
     <p>What you'll find in the sections below are grounded, realistic figures drawn from the UAE market as it stands in 2026. No exaggerated promises, no vague ranges — just the kind of numbers you can actually build a plan around.</p>
 
-
+     <p>If you are still setting up your seller journey, start with our <a href="/guides/how-to-start-amazon-uae-2026" style="color:#2563eb;text-decoration:underline;">complete Amazon UAE beginner guide</a>, then use this budget guide to understand how much capital you need before launching.</p>
+      
     <h2>1. The Minimum Startup Budget — Testing the Waters Smartly</h2>
 
     <p>If you're new to Amazon selling and want to validate your product idea without overcommitting financially, a lean test launch is the most sensible place to start. The goal here isn't to dominate the market from day one — it's to learn, gather real data, and avoid the expensive mistakes that come from scaling too soon.</p>
@@ -3251,6 +3252,8 @@ howToSteps: [
         style="width:100%;height:auto;border-radius:16px;"
       />
     </figure>
+
+    <p>Before choosing your first product, read our <a href="/guides/how-to-find-winning-products-for-amazon-uae" style="color:#2563eb;text-decoration:underline;">Amazon UAE product research guide</a> so you do not spend your startup budget on a weak or low-demand product.</p>
 
     <h2>2. The Serious Launch Budget — Building for Real Momentum</h2>
 
@@ -3296,6 +3299,9 @@ howToSteps: [
       />
     </figure>
 
+    <p>To understand Amazon’s platform charges properly, read our <a href="/guides/amazon-fba-fees-uae" style="color:#2563eb;text-decoration:underline;">Amazon UAE fees guide</a> before finalising your product price.</p>
+
+
     <h2>4. The Inventory Strategy That Smart Sellers Actually Use</h2>
 
     <p>One of the most common and costly mistakes new Amazon sellers make is overbuying on their first order. The logic seems sound — buy more, get a lower unit price, maximise margins. But in practice, ordering large quantities before you've tested real market demand is how sellers end up with thousands of dirhams sitting in a warehouse, going nowhere.</p>
@@ -3319,6 +3325,8 @@ howToSteps: [
         style="width:100%;height:auto;border-radius:16px;"
       />
     </figure>
+
+    <p>Once your product and inventory plan are ready, follow our <a href="/guides/how-to-send-products-amazon-warehouse" style="color:#2563eb;text-decoration:underline;">Amazon warehouse shipment guide</a> to prepare stock correctly for FBA.</p>
 
     <h2>5. A Real-World Profit Example</h2>
 
@@ -3344,6 +3352,8 @@ howToSteps: [
       />
     </figure>
 
+    <p>You can also calculate your real net profit using our <a href="/calculator" style="color:#2563eb;text-decoration:underline;">Amazon FBA Calculator UAE</a> before buying inventory.</p>
+      
     <h2>6. Practical Advice for 2026 Sellers in the UAE</h2>
 
     <p>The Amazon UAE marketplace continues to grow, and 2026 presents genuine opportunity for sellers who approach it with discipline. Here's the distilled advice that separates sellers who gain momentum from those who stall:</p>
@@ -3368,6 +3378,7 @@ howToSteps: [
 
     <p>Start lean. Learn from the data. Build something that lasts.</p>
 
+    <p>After planning your budget, your next steps should be <a href="/guides/how-to-find-supplier-for-amazon-uae" style="color:#2563eb;text-decoration:underline;">finding a reliable supplier</a>, <a href="/guides/how-to-optimize-listing-amazon-uae" style="color:#2563eb;text-decoration:underline;">optimizing your Amazon listing</a>, and building a clear launch strategy.</p>
 
    <p><em>Written by a 4-year Amazon UAE & Noon UAE Brand Owner</em></p>
    
