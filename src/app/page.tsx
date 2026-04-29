@@ -66,13 +66,15 @@ export default function HomePage() {
               <div className="absolute -inset-8 rounded-full bg-black/5 blur-3xl"></div>
 
               <Image
-                src="/hero-image.webp"
-                alt="Amazon FBA boxes"
-                width={700}
-                height={700}
-                priority
-                className="relative w-full h-auto object-contain"
-              />
+  src="/hero-image.webp"
+  alt="Amazon FBA boxes"
+  width={600}
+  height={600}
+  priority
+  fetchPriority="high"
+  sizes="(max-width: 768px) 90vw, 600px"
+  className="relative w-full h-auto object-contain"
+/>
             </div>
           </div>
         </div>
