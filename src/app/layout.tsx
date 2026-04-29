@@ -60,6 +60,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+  </head>
       <Script
   async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6375973173510379"
