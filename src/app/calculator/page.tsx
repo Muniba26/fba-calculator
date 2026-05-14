@@ -1,4 +1,9 @@
 import FbaProfitCalculator from "@/components/FbaProfitCalculator";
+export const metadata = {
+  title: "Amazon UAE Profit Calculator | FBA Fees, ROI & Margin Calculator",
+  description:
+    "Free Amazon UAE and KSA FBA calculator to estimate referral fees, profit margins, ROI and selling costs.",
+};
 
 export default function CalculatorPage() {
   return (
