@@ -172,6 +172,9 @@ const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
   height={700}
   priority
   fetchPriority="high"
+  loading="eager"
+  placeholder="blur"
+  blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTIwMCcgaGVpZ2h0PSc3MDAnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHJlY3Qgd2lkdGg9JzEyMDAnIGhlaWdodD0nNzAwJyBmaWxsPScjZjVmMGU3Jy8+PC9zdmc+"
   sizes="(max-width: 768px) 100vw, 900px"
   className="h-auto w-full"
 />
