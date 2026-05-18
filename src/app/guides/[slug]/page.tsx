@@ -166,13 +166,15 @@ const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
         <div className="min-w-0">
           <div className="mb-8 overflow-hidden rounded-2xl border border-neutral-200">
             <Image
-              src={guide.heroImage}
-              alt={guide.title}
-              width={1200}
-              height={700}
-              className="h-auto w-full"
-              priority
-            />
+  src={guide.heroImage}
+  alt={guide.title}
+  width={1200}
+  height={700}
+  priority
+  fetchPriority="high"
+  sizes="(max-width: 768px) 100vw, 900px"
+  className="h-auto w-full"
+/>
           </div>
 
           <article
