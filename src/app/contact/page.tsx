@@ -22,7 +22,13 @@ export default function ContactPage() {
   </p>
 
   <p className="mt-4 font-semibold">
-    Email: contact@fbacalculatoruae.com
+    Email:{" "}
+<a
+  href="mailto:contact@fbacalculatoruae.com"
+  className="text-orange-600 underline hover:text-orange-700"
+>
+  contact@fbacalculatoruae.com
+</a>
   </p>
 
   <p className="mt-4">
