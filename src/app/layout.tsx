@@ -63,6 +63,20 @@ export default function RootLayout({
        <head>
     <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
     <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+    <Script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-RFFB858MTE"
+/>
+
+<Script id="google-analytics">
+ {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RFFB858MTE');
+  `}
+</Script>
   </head>
       <Script
   async
@@ -74,7 +88,7 @@ export default function RootLayout({
         <TopBar />
 
         {/* 🔒 GLOBAL CONTENT WRAPPER */}
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-center"> 
           <div className="w-full max-w-[1440px]">
             {children}
           </div>
