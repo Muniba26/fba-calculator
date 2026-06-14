@@ -1,17 +1,25 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { GUIDES } from "@/lib/guides";
+
+export const metadata: Metadata = {
+  title: "Amazon FBA UAE Guides | Seller Fees, Profit & Marketplace Tips",
+  description:
+    "Read practical Amazon FBA UAE guides about selling fees, profit calculation, product pricing, seller costs, and marketplace growth for UAE and KSA sellers.",
+};
 
 export default function GuidesPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-14">
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-neutral-900 md:text-5xl">
-          Amazon FBA Guides
-        </h1>
+  Amazon FBA UAE Guides
+</h1>
 
-        <p className="mt-4 text-base text-neutral-600 md:text-lg">
-          Practical guides for Amazon UAE & KSA sellers.
-        </p>
+<p className="mt-4 text-base text-neutral-600 md:text-lg">
+  Practical guides for Amazon UAE and KSA sellers covering FBA fees, profit calculation,
+  seller costs, pricing, and marketplace growth.
+</p>
       </div>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

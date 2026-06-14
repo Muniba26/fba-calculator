@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "About FBA Calculator UAE | Amazon Seller Profit Tool",
+  description:
+    "Learn about FBA Calculator UAE, a simple Amazon seller fee and profit estimation tool built for UAE and KSA marketplace sellers.",
+};
 
 export default function AboutPage() {
   return (
@@ -16,18 +23,22 @@ export default function AboutPage() {
       </div>
 
       <div className="bg-white rounded-2xl p-6 shadow-sm space-y-4 text-slate-700 leading-relaxed">
-        <p>
-          Amazonfba is built to help UAE and Saudi sellers calculate real Amazon FBA profits easily.
-        </p>
+  <p>
+    FBA Calculator UAE is built to help Amazon sellers in the UAE and KSA quickly estimate selling fees,
+    FBA charges, profit margin, and ROI before launching or pricing products.
+  </p>
 
-        <p>
-          Our goal is to provide free tools, clear guides, and simple calculations without paid courses.
-        </p>
+  <p>
+    Our goal is to keep the calculator simple, fast, and useful for everyday Amazon sellers. The calculations
+    are designed for estimation purposes only, and sellers should always verify final fees inside Amazon
+    Seller Central before making business decisions.
+  </p>
 
-        <p>
-          This platform is designed for beginners and experienced sellers who want fast and accurate estimates.
-        </p>
-      </div>
+  <p>
+    The content and tools on this website are maintained by the FBA Calculator UAE team and updated to support
+    sellers who want clearer visibility on Amazon marketplace costs.
+  </p>
+</div>
 
     </main>
   );
