@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import FbaProfitCalculator from "@/components/FbaProfitCalculator";
-export const metadata = {
+
+export const metadata: Metadata = {
   title: "FBA Profit Calculator UAE | Amazon Seller Fees & ROI Tool",
   description:
     "Calculate Amazon UAE selling fees, FBA charges, net profit, profit margin and ROI with our simple FBA profit calculator for Amazon.ae sellers.",
@@ -26,13 +28,11 @@ export default function CalculatorPage() {
     </p>
 
     <p className="mt-4 text-gray-700 leading-7">
-      Many new Amazon sellers focus only on product cost and selling price.
-      However, real profitability depends on multiple factors including Amazon
-      referral fees, storage fees, shipping cost, VAT, packaging expenses,
-      supplier costs and advertising spend. This calculator is designed to help
-      UAE and KSA sellers understand their actual numbers before making product
-      decisions.
-    </p>
+  This calculator focuses on the core Amazon selling calculation: selling price,
+  product cost, referral fee, FBA fulfillment fee, net profit, profit margin,
+  and ROI. It is designed to stay simple so UAE and KSA sellers can quickly
+  check product profitability without entering too many complex fields.
+</p>
   </div>
 
   <div>
