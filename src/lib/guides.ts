@@ -4053,8 +4053,712 @@ howToSteps: [
         "No. A hybrid strategy is often better. You can use FBA for top sellers, Easy Ship for testing products and Self-Ship for oversized or special products.",
     },
   ],
-}
-  ];
+},
+{
+  slug: "amazon-uae-vat-corporate-tax-2026-guide",
+  title: "Amazon UAE VAT & Corporate Tax Guide for Sellers (2026)",
+  subtitle:
+    "VAT registration thresholds, corporate tax bands, Small Business Relief, free zone rules, and practical compliance steps for Amazon.ae sellers.",
+  excerpt:
+    "A practical 2026 guide explaining how UAE VAT and corporate tax affect Amazon sellers, including registration thresholds, the 5% VAT rate, 0% and 9% corporate tax bands, Small Business Relief, and seller compliance.",
+  seoTitle:
+    "Amazon UAE VAT & Corporate Tax Guide 2026 | Seller Rules",
+  seoDescription:
+    "Learn UAE VAT registration thresholds, the 5% VAT rate, 0% and 9% corporate tax bands, Small Business Relief, free zone rules, and compliance steps for Amazon UAE sellers in 2026.",
+  ogImage: "/og/amazon-uae-vat-corporate-tax-2026-guide.png",
+  heroImage:
+    "/articles/amazon-uae-vat-corporate-tax-2026-guide/amazon-uae-vat-corporate-tax-2026-guide-hero.png",
+  updatedAt: "July 2026",
+  authorLine: "FBA Calculator UAE Team",
+
+  relatedSlugs: [
+    "amazon-fba-fees-uae",
+    "amazon-uae-price-strategy",
+    "amazon-uae-startup-budget-2026",
+    "how-expats-can-open-amazon-uae-seller-account",
+    "how-to-start-amazon-uae-2026",
+    "how-to-find-supplier-for-amazon-uae",
+  ],
+
+  contentHtml: `
+    <p>
+      Amazon UAE sellers who calculate profit using only the selling price,
+      product cost, and Amazon fees are often missing two figures that can
+      materially change the final result: <strong>UAE VAT</strong> and
+      <strong>UAE Corporate Tax</strong>.
+    </p>
+
+    <p>
+      New sellers sometimes assume that a free zone company is automatically
+      exempt from tax, or that Amazon handles every tax obligation for the
+      seller. Those assumptions can create pricing mistakes, registration
+      problems, and unexpected liabilities.
+    </p>
+
+    <p>
+      This guide explains how VAT and Corporate Tax can apply to an Amazon.ae
+      business in 2026. It covers the main thresholds, rates, reliefs, and
+      compliance steps so you can turn the output of our
+      <a href="/calculator">Amazon FBA Calculator UAE</a>
+      into a more realistic after-tax business estimate.
+    </p>
+
+    <blockquote>
+      <p>
+        <strong>Important:</strong> Tax treatment depends on whether the seller
+        is a UAE-resident business, a foreign business, a company, or a natural
+        person operating a business. This guide provides general information
+        and is not a substitute for advice from a licensed UAE tax professional.
+      </p>
+    </blockquote>
+
+    <h2>Why Tax Matters for Amazon UAE Sellers</h2>
+
+    <p>
+      An Amazon seller can show a healthy product margin and still earn less
+      than expected after VAT, import costs, Amazon charges, advertising, and
+      Corporate Tax are considered. Tax should therefore be included when you
+      build your product budget, not added as an afterthought after the product
+      has already launched.
+    </p>
+
+    <p>
+      Before opening your seller account, review our complete guide on
+      <a href="/guides/how-to-start-amazon-uae-2026">
+        how to start selling on Amazon UAE in 2026
+      </a>.
+      It explains the broader setup process, including licensing, banking,
+      account verification, product selection, and launch planning.
+    </p>
+
+    <p>
+      Tax planning is especially important when you are deciding:
+    </p>
+
+    <ul>
+      <li>whether your listed price should be VAT-inclusive;</li>
+      <li>how much working capital is required for imported inventory;</li>
+      <li>whether voluntary VAT registration is commercially useful;</li>
+      <li>how Amazon fees affect the amount left after tax;</li>
+      <li>whether Small Business Relief may apply; and</li>
+      <li>whether your mainland, free zone, or non-resident structure changes your obligations.</li>
+    </ul>
+
+    <h2>UAE VAT for Amazon Sellers</h2>
+
+    <p>
+      The standard UAE VAT rate is <strong>5%</strong>. VAT is an indirect tax:
+      a VAT-registered seller generally charges VAT on taxable sales and may
+      recover eligible input VAT paid on qualifying business expenses, subject
+      to the UAE VAT rules and proper documentation.
+    </p>
+
+    <h3>VAT Registration Thresholds</h3>
+
+    <figure>
+      <img
+        src="/articles/amazon-uae-vat-corporate-tax-2026-guide/uae-vat-registration-thresholds-2026.png"
+        alt="UAE VAT registration thresholds for Amazon sellers in 2026"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        UAE VAT registration thresholds: voluntary registration from AED
+        187,500 and mandatory registration for qualifying UAE-resident
+        businesses above AED 375,000.
+      </figcaption>
+    </figure>
+
+    <p>
+      For a business resident in the UAE, the main VAT registration thresholds
+      are:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Mandatory registration:</strong> taxable supplies and imports
+        exceed AED 375,000 during the previous 12 months, or are expected to
+        exceed that amount during the next 30 days.
+      </li>
+      <li>
+        <strong>Voluntary registration:</strong> taxable supplies, imports, or
+        taxable expenses exceed AED 187,500 during the previous 12 months, or
+        are expected to exceed that amount during the next 30 days.
+      </li>
+    </ul>
+
+    <p>
+      A person required to register should submit the VAT registration
+      application within the applicable FTA deadline. The FTA currently states
+      that the application must be submitted within 30 days of the person
+      becoming required to register.
+    </p>
+
+    <p>
+      The rules are different for a non-resident business. The AED 375,000
+      mandatory threshold does not generally apply to foreign businesses. A
+      non-resident making taxable supplies in the UAE may be required to
+      register even where its taxable supplies are below that threshold, unless
+      another UAE party is responsible for accounting for the VAT.
+    </p>
+
+    <p>
+      Overseas founders should read our detailed guide for
+      <a href="/guides/how-expats-can-open-amazon-uae-seller-account">
+        expats and non-resident Amazon UAE sellers
+      </a>
+      before relying on the resident-business threshold.
+    </p>
+
+    <p>
+      You can review the official
+      <a
+        href="https://tax.gov.ae/en/services/vat.registration.aspx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Federal Tax Authority VAT registration service
+      </a>
+      for the current registration conditions and application process.
+    </p>
+
+    <h3>How VAT Affects Amazon Profit</h3>
+
+    <p>
+      Once registered, a seller generally charges 5% VAT on taxable UAE sales.
+      The VAT collected from customers is not ordinary business income. It is
+      reported to the FTA, with eligible input VAT deducted in accordance with
+      the VAT rules.
+    </p>
+
+    <p>
+      Suppose a product is advertised to consumers for AED 100 and that amount
+      is VAT-inclusive. The VAT portion is approximately AED 4.76, calculated
+      as AED 100 multiplied by 5/105. The seller should not treat the entire AED
+      100 as revenue available to cover product cost, Amazon fees, advertising,
+      and profit.
+    </p>
+
+    <p>
+      This is why the product price, VAT position, Amazon fees, and landed cost
+      should be reviewed together. Start with our
+      <a href="/guides/amazon-fba-fees-uae">
+        complete Amazon FBA fees UAE breakdown
+      </a>,
+      then use the
+      <a href="/guides/amazon-uae-price-strategy">
+        Amazon UAE pricing strategy guide
+      </a>
+      to build a selling price that protects your margin.
+    </p>
+
+    <h3>Output VAT and Input VAT</h3>
+
+    <p>
+      <strong>Output VAT</strong> is VAT charged on taxable sales.
+      <strong>Input VAT</strong> is VAT paid on eligible business purchases and
+      expenses. A VAT-registered Amazon seller may be able to recover eligible
+      input VAT on items such as:
+    </p>
+
+    <ul>
+      <li>inventory bought from VAT-registered UAE suppliers;</li>
+      <li>qualifying import VAT;</li>
+      <li>packaging and labelling services;</li>
+      <li>professional services;</li>
+      <li>business software and subscriptions; and</li>
+      <li>advertising or other taxable business expenses.</li>
+    </ul>
+
+    <p>
+      Recovery depends on the expense being connected to the taxable business,
+      the seller holding valid evidence, and the expense meeting all other
+      recovery conditions. Keep tax invoices and supporting documents in an
+      organised accounting system.
+    </p>
+
+    <h3>VAT on Imported Inventory</h3>
+
+    <p>
+      Many Amazon UAE sellers source inventory from overseas manufacturers.
+      Import VAT may become payable when the goods enter the UAE. A registered
+      business may normally recover eligible import VAT, but it can still create
+      a short-term cash-flow requirement.
+    </p>
+
+    <p>
+      When comparing suppliers, include product cost, freight, insurance,
+      customs-related charges, import VAT, inspection, labelling, and delivery
+      to the fulfilment location. Our guide on
+      <a href="/guides/how-to-find-supplier-for-amazon-uae">
+        finding a supplier for Amazon UAE
+      </a>
+      explains how to evaluate suppliers and negotiate the true landed cost.
+    </p>
+
+    <p>
+      Once stock is ready, follow the correct preparation and delivery process
+      in our guide on
+      <a href="/guides/how-to-send-products-amazon-warehouse">
+        how to send products to an Amazon warehouse in the UAE
+      </a>.
+    </p>
+
+    <h3>Free Zone Sellers and VAT</h3>
+
+    <p>
+      Holding a free zone licence does not automatically remove VAT
+      obligations. A free zone business can still be required to register when
+      the relevant VAT conditions are met. Special VAT treatment for a
+      designated zone applies only in specific circumstances and should not be
+      confused with a general exemption for every free zone company.
+    </p>
+
+    <h2>UAE Corporate Tax for Amazon Sellers</h2>
+
+    <p>
+      UAE Corporate Tax is generally charged on taxable income, not gross sales.
+      For many taxable businesses, the standard bands are:
+    </p>
+
+    <ul>
+      <li><strong>0%</strong> on taxable income up to AED 375,000; and</li>
+      <li><strong>9%</strong> on taxable income above AED 375,000.</li>
+    </ul>
+
+    <figure>
+      <img
+        src="/articles/amazon-uae-vat-corporate-tax-2026-guide/uae-corporate-tax-bands-0-9-percent-2026.png"
+        alt="UAE corporate tax bands of zero percent and nine percent for Amazon sellers"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        UAE Corporate Tax uses a 0% band on the first AED 375,000 of taxable
+        income and a 9% band on taxable income above that amount, subject to
+        the applicable rules and reliefs.
+      </figcaption>
+    </figure>
+
+    <h3>The 0% and 9% Corporate Tax Bands</h3>
+
+    <p>
+      The 9% rate is applied to the portion of taxable income above AED 375,000,
+      rather than automatically applying to the entire profit.
+    </p>
+
+    <p>
+      For example, if a taxable business has AED 500,000 of taxable income and
+      no relief changes the calculation:
+    </p>
+
+    <ul>
+      <li>the first AED 375,000 is taxed at 0%;</li>
+      <li>the remaining AED 125,000 is taxed at 9%; and</li>
+      <li>the resulting Corporate Tax is AED 11,250.</li>
+    </ul>
+
+    <p>
+      Taxable income is not always identical to the profit shown in a simple
+      spreadsheet. Accounting adjustments, deductible and non-deductible
+      expenses, exempt income, reliefs, and other Corporate Tax rules can change
+      the final taxable figure.
+    </p>
+
+    <h3>Companies and Natural Persons Do Not Use the Same Registration Test</h3>
+
+    <p>
+      A UAE company or other juridical person that is subject to Corporate Tax
+      must register according to the FTA's applicable registration timeline.
+      Do not wait until tax becomes payable before checking the deadline.
+    </p>
+
+    <p>
+      A natural person, including an individual conducting a business or a sole
+      establishment, is generally subject to Corporate Tax only where the
+      person's total turnover from UAE business or business activities exceeds
+      <strong>AED 1 million within a calendar year</strong>. Salary, personal
+      investment income, and real estate investment income are excluded from
+      that business-turnover test under the current FTA guidance.
+    </p>
+
+    <p>
+      This distinction is important. A statement such as "every licence holder
+      must register immediately" is too broad because the legal form of the
+      seller matters.
+    </p>
+
+    <p>
+      Review the official
+      <a
+        href="https://tax.gov.ae/en/services/corporate.tax.registration.aspx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        FTA Corporate Tax registration guidance
+      </a>
+      for current entity-specific registration requirements and deadlines.
+    </p>
+
+    <h3>Small Business Relief: AED 3 Million Revenue Limit</h3>
+
+    <p>
+      An eligible UAE Resident Person may elect for Small Business Relief where
+      revenue is no more than AED 3 million in the relevant tax period and all
+      previous tax periods. The relief treats the eligible person as having no
+      taxable income for that period.
+    </p>
+
+    <p>
+      The relief is not automatic. It must be elected in the Corporate Tax
+      return, and an eligible person must still register in order to file and
+      make the election. Under the current rules, Small Business Relief is
+      available for eligible tax periods ending on or before
+      <strong>31 December 2026</strong>.
+    </p>
+
+    <p>
+      A Qualifying Free Zone Person and certain large multinational-group
+      members cannot elect for Small Business Relief. Eligibility should be
+      checked carefully before relying on it.
+    </p>
+
+    <p>
+      The
+      <a
+        href="https://tax.gov.ae/en/taxes/corporate.tax/corporate.tax.topics/small.business.relief.23.aspx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        FTA Small Business Relief guidance
+      </a>
+      should be reviewed before filing.
+    </p>
+
+    <h3>Free Zone Sellers and Qualifying Income</h3>
+
+    <p>
+      A free zone company is not automatically exempt from Corporate Tax. A
+      business that meets all requirements to be a Qualifying Free Zone Person
+      may benefit from a 0% rate on qualifying income, while other income may be
+      taxed under the standard rules.
+    </p>
+
+    <p>
+      E-commerce and marketplace activity can involve several income streams,
+      counterparties, and fulfilment arrangements. A seller should not assume
+      that all Amazon income is qualifying income simply because the trade
+      licence was issued by a free zone.
+    </p>
+
+    <h2>Worked Example: VAT and Corporate Tax on an Amazon Sale</h2>
+
+    <p>
+      Consider a VAT-registered seller listing a product at an AED 100
+      VAT-inclusive consumer price:
+    </p>
+
+    <ul>
+      <li>VAT included in the AED 100 price: approximately AED 4.76;</li>
+      <li>revenue excluding output VAT: approximately AED 95.24;</li>
+      <li>product cost: AED 30;</li>
+      <li>illustrative referral fee: AED 10;</li>
+      <li>illustrative FBA fulfilment fee: AED 15; and</li>
+      <li>illustrative profit before other costs and Corporate Tax: AED 40.24.</li>
+    </ul>
+
+    <p>
+      This simplified example does not include recoverable input VAT,
+      advertising, storage, returns, shipping, customs charges, overheads, or
+      accounting adjustments. Its purpose is to show why VAT should not be
+      ignored when reading a basic product-margin calculation.
+    </p>
+
+    <p>
+      Corporate Tax is then calculated at the business level for the relevant
+      tax period, not separately on each individual Amazon order. The final
+      taxable income is determined after the applicable accounting and tax
+      adjustments.
+    </p>
+
+    <p>
+      Build enough margin into your launch budget by reviewing our
+      <a href="/guides/amazon-uae-startup-budget-2026">
+        Amazon UAE startup budget for 2026
+      </a>
+      before committing to inventory.
+    </p>
+
+    <h2>VAT and Corporate Tax Summary Table</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Rule</th>
+          <th scope="col">Threshold or Basis</th>
+          <th scope="col">Rate or Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>VAT mandatory registration for a UAE-resident business</td>
+          <td>AED 375,000 of taxable supplies and imports</td>
+          <td>Register when the statutory test is met</td>
+        </tr>
+        <tr>
+          <td>VAT voluntary registration</td>
+          <td>AED 187,500 of taxable supplies, imports, or taxable expenses</td>
+          <td>Optional registration, subject to eligibility</td>
+        </tr>
+        <tr>
+          <td>VAT for a non-resident business</td>
+          <td>The resident threshold generally does not apply</td>
+          <td>Registration may be required from the first taxable supply</td>
+        </tr>
+        <tr>
+          <td>UAE standard VAT rate</td>
+          <td>Most taxable supplies</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td>Corporate Tax lower band</td>
+          <td>First AED 375,000 of taxable income</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td>Corporate Tax standard band</td>
+          <td>Taxable income above AED 375,000</td>
+          <td>9%</td>
+        </tr>
+        <tr>
+          <td>Natural-person Corporate Tax threshold</td>
+          <td>Business turnover above AED 1 million in a calendar year</td>
+          <td>Register and comply within the applicable timeline</td>
+        </tr>
+        <tr>
+          <td>Small Business Relief</td>
+          <td>Eligible Resident Person with revenue no more than AED 3 million</td>
+          <td>Elect in the return for eligible periods ending by 31 December 2026</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Common Tax Mistakes Amazon UAE Sellers Make</h2>
+
+    <ul>
+      <li>
+        Assuming a free zone licence automatically removes VAT and Corporate
+        Tax obligations.
+      </li>
+      <li>
+        Tracking annual sales only at year-end instead of monitoring VAT
+        turnover on a rolling 12-month basis.
+      </li>
+      <li>
+        Applying the AED 375,000 resident VAT threshold to a foreign business
+        without checking the non-resident rules.
+      </li>
+      <li>
+        Treating VAT collected from customers as ordinary sales revenue.
+      </li>
+      <li>
+        Forgetting import VAT and customs-related cash flow when calculating
+        landed cost.
+      </li>
+      <li>
+        Assuming Small Business Relief is automatic rather than an election in
+        the Corporate Tax return.
+      </li>
+      <li>
+        Treating every licence holder as if the same Corporate Tax registration
+        rule applies, without distinguishing a company from a natural person.
+      </li>
+      <li>
+        Mixing personal and business transactions, making tax records harder
+        to support.
+      </li>
+      <li>
+        Failing to keep Amazon settlement reports, supplier invoices, customs
+        documents, and expense records.
+      </li>
+    </ul>
+
+    <h2>How to Stay Compliant</h2>
+
+    <figure>
+      <img
+        src="/articles/amazon-uae-vat-corporate-tax-2026-guide/uae-tax-compliance-checklist-2026.png"
+        alt="UAE VAT and corporate tax compliance checklist for Amazon sellers"
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        A practical VAT and Corporate Tax compliance checklist for Amazon UAE
+        sellers.
+      </figcaption>
+    </figure>
+
+    <ol>
+      <li>
+        <strong>Confirm your legal form.</strong> Identify whether the seller is
+        a UAE company, free zone entity, sole establishment, other natural
+        person, or non-resident business.
+      </li>
+      <li>
+        <strong>Track taxable turnover every month.</strong> Use a rolling
+        12-month VAT tracker and a forecast for the next 30 days.
+      </li>
+      <li>
+        <strong>Check the correct VAT test.</strong> Do not apply the
+        UAE-resident threshold to a non-resident seller without professional
+        review.
+      </li>
+      <li>
+        <strong>Register within the applicable deadline.</strong> Keep evidence
+        showing when the obligation arose and when the application was filed.
+      </li>
+      <li>
+        <strong>Separate output VAT from revenue.</strong> Reconcile Amazon
+        settlement reports with your sales and VAT records.
+      </li>
+      <li>
+        <strong>Keep valid evidence for input VAT.</strong> Store supplier tax
+        invoices, import documents, receipts, and payment evidence.
+      </li>
+      <li>
+        <strong>Check Corporate Tax registration based on entity type.</strong>
+        Companies and natural persons do not use the same registration test.
+      </li>
+      <li>
+        <strong>Review relief eligibility before filing.</strong> Confirm
+        whether Small Business Relief or Qualifying Free Zone Person treatment
+        is available.
+      </li>
+      <li>
+        <strong>File returns on time.</strong> A nil tax amount does not always
+        remove the obligation to register or file.
+      </li>
+      <li>
+        <strong>Use professional advice for uncertain cases.</strong> This is
+        especially important for non-resident sellers, mixed mainland/free-zone
+        activity, and cross-border inventory.
+      </li>
+    </ol>
+
+    <h2>Use the FBA Calculator With Tax in Mind</h2>
+
+    <p>
+      Our <a href="/calculator">Amazon FBA Calculator UAE</a> estimates Amazon
+      referral fees, FBA fulfilment fees, profit, margin, and ROI. VAT and
+      Corporate Tax are not automatically included in the quick calculation
+      because the correct result depends on the seller's registration status,
+      legal form, revenue, taxable income, recoverable input VAT, and available
+      reliefs.
+    </p>
+
+    <p>
+      Use the calculator to test whether a product has sufficient margin after
+      Amazon charges. Then apply your VAT position, landed costs, advertising,
+      overheads, and expected Corporate Tax treatment before choosing the final
+      selling price.
+    </p>
+
+    <p>
+      Your fulfilment model also changes the fee and cash-flow structure. Read
+      our comparison of
+      <a href="/guides/amazon-fba-vs-easy-ship-self-ship-uae">
+        Amazon FBA, Easy Ship, and Self-Ship in the UAE
+      </a>
+      before finalising the cost model.
+    </p>
+
+    <h2>Final Word</h2>
+
+    <p>
+      VAT and Corporate Tax are normal parts of operating an Amazon business in
+      the UAE. Sellers who monitor thresholds, keep clean records, price with
+      tax in mind, and register on time are less likely to face unexpected
+      liabilities or margin problems.
+    </p>
+
+    <p>
+      Begin with the
+      <a href="/guides/how-to-start-amazon-uae-2026">
+        Amazon UAE seller setup guide
+      </a>,
+      calculate your expected fees with the
+      <a href="/calculator">free Amazon FBA Calculator UAE</a>,
+      and explore our
+      <a href="/guides">complete Amazon UAE and KSA seller guides</a>
+      for product research, sourcing, pricing, fulfilment, reviews, PPC, and
+      marketplace growth.
+    </p>
+
+    <p>
+      <em>
+        This article is for general educational information only and does not
+        constitute tax, accounting, or legal advice. UAE tax rules and
+        administrative procedures can change. Confirm your position with the
+        Federal Tax Authority or a licensed UAE tax professional before making
+        registration, filing, or payment decisions.
+      </em>
+    </p>
+  `,
+
+  faq: [
+    {
+      question: "Do Amazon UAE sellers need to register for VAT?",
+      answer:
+        "A UAE-resident business must generally register when taxable supplies and imports exceed AED 375,000 over the previous 12 months or are expected to exceed that amount in the next 30 days. Voluntary registration may be available above AED 187,500. Different rules apply to non-resident businesses.",
+    },
+    {
+      question: "What is the UAE VAT rate for Amazon sellers?",
+      answer:
+        "The standard UAE VAT rate is 5% on most taxable supplies. A VAT-registered seller generally charges output VAT and may recover eligible input VAT, subject to the UAE VAT rules and proper evidence.",
+    },
+    {
+      question: "Does the AED 375,000 VAT threshold apply to foreign Amazon sellers?",
+      answer:
+        "The mandatory AED 375,000 threshold does not generally apply to foreign businesses. A non-resident business making taxable UAE supplies may need to register even below that amount unless another UAE party is responsible for the VAT.",
+    },
+    {
+      question: "Is Amazon UAE seller income subject to Corporate Tax?",
+      answer:
+        "Amazon business income can fall within UAE Corporate Tax. For many taxable businesses, taxable income up to AED 375,000 is subject to 0%, while taxable income above AED 375,000 is subject to 9%, subject to reliefs and other rules.",
+    },
+    {
+      question: "When does a natural-person Amazon seller register for Corporate Tax?",
+      answer:
+        "A natural person conducting a UAE business is generally required to register when total turnover from business or business activities exceeds AED 1 million within a calendar year. The rules for companies and other juridical persons are different.",
+    },
+    {
+      question: "Does a free zone licence exempt an Amazon seller from VAT or Corporate Tax?",
+      answer:
+        "No. A free zone licence does not create an automatic blanket exemption. VAT registration may still be required, and 0% Corporate Tax treatment for qualifying free zone income depends on meeting detailed statutory conditions.",
+    },
+    {
+      question: "What is Small Business Relief for UAE Amazon sellers?",
+      answer:
+        "An eligible UAE Resident Person with revenue no more than AED 3 million in the relevant and previous tax periods may elect to be treated as having no taxable income. The election is made in the Corporate Tax return and currently applies to eligible periods ending on or before 31 December 2026.",
+    },
+    {
+      question: "Does the FBA Calculator UAE include VAT and Corporate Tax?",
+      answer:
+        "The calculator estimates Amazon fees, profit, margin, and ROI, but VAT and Corporate Tax are not automatically included because they depend on the seller's registration status, legal form, recoverable input VAT, taxable income, and available reliefs.",
+    },
+  ],
+
+  howToSteps: [
+    "Confirm whether the Amazon seller is a UAE company, free zone entity, natural person, or non-resident business.",
+    "Track taxable supplies and imports monthly using a rolling 12-month VAT calculation and a forecast for the next 30 days.",
+    "Check whether mandatory or voluntary VAT registration applies and submit the application within the applicable deadline.",
+    "Separate VAT collected from ordinary sales revenue and reconcile Amazon settlement reports with accounting records.",
+    "Keep supplier invoices, customs documents, import records, expense receipts, and proof of payment.",
+    "Check Corporate Tax registration requirements based on the seller's legal form and applicable FTA timeline.",
+    "Review eligibility for Small Business Relief or Qualifying Free Zone Person treatment before filing.",
+    "File VAT and Corporate Tax returns on time and obtain professional UAE tax advice for complex or cross-border cases.",
+  ],
+},  ];
 
 
 export function getGuideBySlug(slug: string) {
