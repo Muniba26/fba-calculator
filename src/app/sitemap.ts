@@ -151,5 +151,9 @@ export default function sitemap() {
       url: "https://www.fbacalculatoruae.com/fees/automotive",
       lastModified: new Date(),
     },
+     {
+      url: "https://www.fbacalculatoruae.com/guides/amazon-uae-vat-corporate-tax-2026-guide",
+      lastModified: new Date(),
+    },
   ];
 }
