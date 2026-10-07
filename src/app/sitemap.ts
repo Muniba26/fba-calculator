@@ -9,7 +9,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides",
+      url: "https://www.fbacalculatoruae.com/blog",
       lastModified: new Date(),
     },
     {
@@ -30,43 +30,43 @@ export default function sitemap() {
     },
 
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-start-amazon-uae-2026",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-start-amazon-uae-2026",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-optimize-listing-amazon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-optimize-listing-amazon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-send-products-amazon-warehouse",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-send-products-amazon-warehouse",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-rank-product-amazon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-rank-product-amazon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/amazon-uae-price-strategy",
+      url: "https://www.fbacalculatoruae.com/blog/amazon-uae-price-strategy",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-find-winning-products-amazon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-find-winning-products-amazon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/amazon-uae-vs-noon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/amazon-uae-vs-noon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-find-supplier-for-amazon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-find-supplier-for-amazon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-get-reviews-amazon-uae",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-get-reviews-amazon-uae",
       lastModified: new Date(),
     },
     {
-      url: "https://www.fbacalculatoruae.com/guides/how-to-use-social-media-for-product-sell",
+      url: "https://www.fbacalculatoruae.com/blog/how-to-use-social-media-for-product-sell",
       lastModified: new Date(),
     },
     {
@@ -152,7 +152,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
      {
-      url: "https://www.fbacalculatoruae.com/guides/amazon-uae-vat-corporate-tax-2026-guide",
+      url: "https://www.fbacalculatoruae.com/blog/amazon-uae-vat-corporate-tax-2026-guide",
       lastModified: new Date(),
     },
   ];
