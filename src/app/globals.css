@@ -79,3 +79,97 @@ button:focus-visible {
   outline-offset: 2px;
   border-radius: 10px;
 }
+
+
+/* ================================
+   Professional Blog Article Tables
+================================ */
+
+.prose table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.prose thead {
+  background: #fff3e6;
+}
+
+.prose th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.prose td {
+  padding: 14px 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #374151;
+  vertical-align: top;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.prose tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.prose tbody tr:hover {
+  background: #fff8f0;
+}
+
+.prose th:first-child,
+.prose td:first-child {
+  font-weight: 600;
+  color: #111827;
+}
+
+.prose table th:nth-child(1),
+.prose table td:nth-child(1) {
+  width: 22%;
+}
+
+.prose table th:nth-child(2),
+.prose table td:nth-child(2) {
+  width: 34%;
+}
+
+.prose table th:nth-child(3),
+.prose table td:nth-child(3) {
+  width: 44%;
+}
+
+/* Mobile responsive table */
+@media (max-width: 768px) {
+  .prose .overflow-x-auto {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding-bottom: 6px;
+  }
+
+  .prose table {
+    min-width: 680px;
+  }
+
+  .prose th,
+  .prose td {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+}
