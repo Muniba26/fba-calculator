@@ -1,67 +1,63 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { GUIDES } from "@/lib/guides";
 
 export const metadata: Metadata = {
-  title: "Blog — Amazon Seller Guides (UAE & KSA) | FBA Calculator",
+  title: "Amazon FBA UAE Blog | Seller Tips, Fees & Marketplace Guides",
   description:
-    "Short practical guides for Amazon sellers: fees, VAT, ROI, PPC strategy and pricing decisions for UAE & KSA markets.",
+    "Read practical Amazon FBA articles for UAE and KSA sellers covering fees, profit calculation, VAT, product research, pricing, PPC, logistics and marketplace growth.",
 };
 
 export default function BlogPage() {
   return (
-    <div className="space-y-6">
-      <div className="card-premium">
-        <div className="badge-accent w-fit">
-          <span className="h-2 w-2 rounded-full bg-[var(--brand)]" />
-          SEO • Authority • Short guides
-        </div>
-        <h1 className="mt-4 text-3xl font-extrabold text-[var(--ink)]">Blog</h1>
-        <div className="mt-3 h-1 w-16 rounded-full bg-[var(--brand)]" />
-        <p className="mt-4 text-sm text-zinc-600">
-          We publish short, high-value guides for Amazon sellers in UAE & Saudi Arabia.
+    <main className="mx-auto max-w-7xl px-4 py-14">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-neutral-900 md:text-5xl">
+          Amazon FBA UAE Blog
+        </h1>
+
+        <p className="mt-4 text-base text-neutral-600 md:text-lg">
+          Practical articles for Amazon UAE and KSA sellers covering FBA fees,
+          profit calculation, product research, pricing, PPC, logistics and
+          marketplace growth.
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2">
-        <div className="card-premium">
-          <div className="text-lg font-extrabold text-[var(--ink)]">
-            How to estimate FBA fees without API
-          </div>
-          <p className="mt-2 text-sm text-zinc-600">
-            Learn the right structure for profit calculations and avoid common mistakes.
-          </p>
-          <div className="mt-4 text-xs text-zinc-500">Coming soon</div>
-        </div>
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        {GUIDES.map((guide, index) => (
+          <Link
+            key={guide.slug}
+            href={`/blog/${guide.slug}`}
+            className="group relative overflow-hidden rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+          >
+            <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-400 via-orange-500 to-amber-400" />
 
-        <div className="card-premium">
-          <div className="text-lg font-extrabold text-[var(--ink)]">
-            UAE vs KSA VAT basics (simple)
-          </div>
-          <p className="mt-2 text-sm text-zinc-600">
-            VAT explained for sellers: when it applies and how to model it.
-          </p>
-          <div className="mt-4 text-xs text-zinc-500">Coming soon</div>
-        </div>
+            <div className="mb-5 flex items-center justify-between">
+              <span className="inline-flex rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
+                Article {index + 1}
+              </span>
 
-        <div className="card-premium">
-          <div className="text-lg font-extrabold text-[var(--ink)]">
-            Pricing strategy using ROI & margin
-          </div>
-          <p className="mt-2 text-sm text-zinc-600">
-            Set a target margin and ROI and build a price that makes sense.
-          </p>
-          <div className="mt-4 text-xs text-zinc-500">Coming soon</div>
-        </div>
+              <span className="text-neutral-300 transition group-hover:text-neutral-500">
+                →
+              </span>
+            </div>
 
-        <div className="card-premium">
-          <div className="text-lg font-extrabold text-[var(--ink)]">
-            Break-even PPC: how much can you spend?
-          </div>
-          <p className="mt-2 text-sm text-zinc-600">
-            Understand ads cost limits so you don’t sell at a loss.
-          </p>
-          <div className="mt-4 text-xs text-zinc-500">Coming soon</div>
-        </div>
+            <h2 className="text-xl font-semibold leading-snug text-neutral-900">
+              {guide.title}
+            </h2>
+
+            <p className="mt-4 line-clamp-3 text-sm leading-6 text-neutral-600">
+              {guide.excerpt}
+            </p>
+
+            <div className="mt-6">
+              <span className="text-sm font-semibold text-neutral-900 underline underline-offset-4">
+                Read Article
+              </span>
+            </div>
+          </Link>
+        ))}
       </div>
-    </div>
+    </main>
   );
 }

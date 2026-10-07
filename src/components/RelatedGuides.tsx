@@ -12,7 +12,7 @@ export default function RelatedGuides({ currentSlug }: { currentSlug: string }) 
         {related.map((guide) => (
           <Link
             key={guide.slug}
-            href={`/guides/${guide.slug}`}
+            href={`/blog/${guide.slug}`}
             className="block rounded-xl border border-neutral-200 p-5 hover:shadow-md transition"
           >
             <h3 className="font-semibold text-lg mb-2">{guide.title}</h3>

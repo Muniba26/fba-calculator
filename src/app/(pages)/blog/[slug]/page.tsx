@@ -1,132 +1,265 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import Image from "next/image";
+import { GUIDES, getGuideBySlug } from "@/lib/guides";
+import BackToGuides from "@/components/BackToGuides";
+import RelatedGuides from "@/components/RelatedGuides";
+import ProductResearchLinks from "@/components/ProductResearchLinks";
+import CalculatorPreview from "@/components/CalculatorPreview";
+import AutoRelatedGuides from "@/components/AutoRelatedGuides";
 
-const ARTICLES: Record<
-  string,
-  { title: string; desc: string; bullets: string[]; sections: { h: string; p: string }[] }
-> = {
-  "estimate-fba-fees-without-api": {
-    title: "How to estimate FBA fees (no API)",
-    desc: "A simple way to estimate fees using the same structure as Amazon’s calculator, without pulling live ASIN data.",
-    bullets: [
-      "Use your selling price + referral fee %",
-      "Add estimated FBA fulfillment + storage",
-      "Optional: VAT + PPC toggle",
-      "Result: profit, margin, ROI, break-even PPC",
-    ],
-    sections: [
-      {
-        h: "Step 1 — Start with the selling price",
-        p: "Enter the listing price customers pay. This is your top-line revenue for one unit.",
-      },
-      {
-        h: "Step 2 — Referral fee (category %)",
-        p: "Use a category referral % (example: 15%). Your referral fee is selling price × referral %. This matches the Amazon calculator structure.",
-      },
-      {
-        h: "Step 3 — Fulfillment + storage",
-        p: "Add the FBA fulfillment fee (pick & pack + shipping) and storage estimate per unit. If you don’t know exact fees yet, start with a conservative estimate.",
-      },
-      {
-        h: "Step 4 — VAT and PPC (optional)",
-        p: "If VAT applies, enable VAT and use the default (UAE 5%, KSA 15%). If you plan ads, enable PPC and set an ACOS % to see break-even limits.",
-      },
-    ],
-  },
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-");
+}
 
-  "uae-ksa-vat-basics": {
-    title: "UAE vs KSA VAT basics (simple)",
-    desc: "Understand the VAT toggle and when to include VAT in your calculation.",
-    bullets: [
-      "UAE VAT default: 5%",
-      "KSA VAT default: 15%",
-      "VAT is optional in calculator because sellers differ",
-      "Use VAT when you need a safe, realistic estimate",
-    ],
-    sections: [
-      {
-        h: "Why VAT is a toggle",
-        p: "Some sellers price VAT-included, others treat it differently depending on setup. Toggle keeps the tool flexible and accurate for your situation.",
-      },
-      {
-        h: "When you should enable VAT",
-        p: "Enable VAT when you want a conservative estimate or when you know VAT affects your final margin for the product.",
-      },
-      {
-        h: "UAE vs KSA",
-        p: "For UAE use 5% by default. For KSA use 15% by default. You can adjust if rules or your scenario differs.",
-      },
-    ],
-  },
+function extractHeadingsFromHtml(html: string) {
+  const matches = [...html.matchAll(/<h2>(.*?)<\/h2>|<h3>(.*?)<\/h3>/g)];
+  return matches.map((match) => {
+    const raw = match[1] || match[2] || "";
+    const text = raw.replace(/<[^>]+>/g, "").trim();
+    return {
+      text,
+      id: slugify(text),
+      level: match[1] ? 2 : 3,
+    };
+  });
+}
 
-  "pricing-strategy-roi-margin": {
-    title: "Pricing strategy: target ROI & margin",
-    desc: "Use profit, ROI, and margin together to decide a safer selling price.",
-    bullets: [
-      "Margin helps you compare products",
-      "ROI helps you compare capital efficiency",
-      "Break-even PPC shows how much ads you can afford",
-      "Raise price or reduce costs to hit targets",
-    ],
-    sections: [
-      {
-        h: "Margin vs ROI (in one line)",
-        p: "Margin = profit ÷ revenue. ROI = profit ÷ total cost. Both matter, but they answer different questions.",
-      },
-      {
-        h: "Use break-even PPC as a safety rule",
-        p: "If your break-even PPC is too low, ads will kill profit. Either improve cost structure or raise price.",
-      },
-      {
-        h: "Practical workflow",
-        p: "Start with your cost estimates → check profit/margin/ROI → adjust price or costs until it becomes safe.",
-      },
-    ],
-  },
+type PageProps = {
+  params: Promise<{
+    slug: string;
+  }>;
 };
 
-export default function BlogArticlePage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const article = ARTICLES[params.slug];
-  if (!article) return notFound();
+export function generateStaticParams() {
+  return GUIDES.map((guide) => ({
+    slug: guide.slug,
+  }));
+}
 
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const guide = getGuideBySlug(slug);
+
+  if (!guide) {
+    return {
+      title: "Article Not Found | FBA Calculator UAE & KSA",
+      description: "The requested article could not be found.",
+    };
+  }
+
+  return {
+    title: guide.seoTitle || guide.title,
+    description: guide.seoDescription || guide.excerpt,
+    alternates: {
+      canonical: `https://www.fbacalculatoruae.com/blog/${guide.slug}`,
+    },
+    openGraph: {
+      title: guide.seoTitle || guide.title,
+      description: guide.seoDescription || guide.excerpt,
+      url: `https://www.fbacalculatoruae.com/blog/${guide.slug}`,
+      siteName: "FBA Calculator UAE & KSA",
+      images: [
+        {
+          url: guide.ogImage || guide.heroImage || "/og-image-1200x630.png",
+          width: 1200,
+          height: 630,
+          alt: guide.title,
+        },
+      ],
+      locale: "en_US",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: guide.seoTitle || guide.title,
+      description: guide.seoDescription || guide.excerpt,
+      images: [guide.ogImage || guide.heroImage || "/og-image-1200x630.png"],
+    },
+  };
+}
+
+export default async function BlogArticlePage({ params }: PageProps) {
+  const { slug } = await params;
+  const guide = getGuideBySlug(slug);
+  const faqSchema = guide?.faq?.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: guide.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
+    }
+  : null;
+const tocItems = extractHeadingsFromHtml(guide?.contentHtml || "");
+
+  if (!guide) {
+    return (
+      <main className="mx-auto max-w-3xl px-4 py-10">
+        <h1 className="text-3xl font-bold text-red-600">Guide not found</h1>
+        <p className="mt-3 text-neutral-700">
+          Slug received: <b>{slug}</b>
+        </p>
+      </main>
+    );
+  }
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
-      <Link href="/blog" className="text-sm font-semibold text-orange-600 hover:underline">
-        ← Back to Blog
-      </Link>
+    <main className="mx-auto max-w-6xl px-4 py-10">
+      {faqSchema ? (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+  />
+) : null}
 
-      <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900">
-        {article.title}
-      </h1>
-
-      <p className="mt-3 text-base text-slate-600">{article.desc}</p>
-
-      <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5">
-        <div className="text-sm font-semibold text-slate-900">Quick summary</div>
-        <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-700">
-          {article.bullets.map((b) => (
-            <li key={b}>{b}</li>
-          ))}
-        </ul>
+      <div className="mb-6">
+        <BackToGuides />
       </div>
 
-      <div className="mt-8 space-y-7">
-        {article.sections.map((s) => (
-          <section key={s.h}>
-            <h2 className="text-lg font-semibold text-slate-900">{s.h}</h2>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600">{s.p}</p>
-          </section>
-        ))}
-      </div>
+      <header className="mb-8">
+        <h1 className="text-4xl font-bold text-neutral-900">{guide.title}</h1>
 
-      <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-5 text-xs text-slate-500">
-        Disclaimer: Estimates only. Amazon fees and VAT rules can change, and final
-        fees may vary by category and seller settings.
+        {guide.subtitle ? (
+          <p className="mt-3 text-lg text-neutral-600">{guide.subtitle}</p>
+        ) : null}
+
+        {guide.authorLine ? (
+          <p className="mt-4 text-sm text-neutral-500">{guide.authorLine}</p>
+        ) : null}
+
+        {guide.updatedAt ? (
+          <p className="mt-2 text-sm text-neutral-500">
+            Last updated: {guide.updatedAt}
+          </p>
+        ) : null}
+      </header>
+
+      <div className="grid gap-10 lg:grid-cols-[280px_minmax(0,1fr)]">
+        <aside className="self-start lg:sticky lg:top-24">
+          <div className="rounded-2xl border border-neutral-200 bg-white p-5">
+  <h2 className="text-xl font-bold text-neutral-900">Table of Contents</h2>
+
+  <div className="mt-4 space-y-3">
+    {tocItems.map((item) => (
+      <a
+        key={item.id}
+        href={`#${item.id}`}
+        className={`block text-neutral-700 hover:text-black ${
+          item.level === 3 ? "ml-4 text-sm" : "text-base font-medium"
+        }`}
+      >
+        {item.text}
+      </a>
+    ))}
+  </div>
+</div>
+        </aside>
+
+        <div className="min-w-0">
+          <div className="mb-8 overflow-hidden rounded-2xl border border-neutral-200">
+            <Image
+  src={guide.heroImage}
+  alt={guide.title}
+  width={1200}
+  height={700}
+  priority
+  fetchPriority="high"
+  sizes="(max-width: 768px) 100vw, 900px"
+  className="h-auto w-full"
+  unoptimized
+/>
+          </div>
+
+          <article
+            className="prose prose-neutral max-w-none"
+            dangerouslySetInnerHTML={{
+  __html: guide.contentHtml
+    .replace(/<h2>(.*?)<\/h2>/g, (_, text) => {
+      const clean = String(text).replace(/<[^>]+>/g, "").trim();
+      return `<h2 id="${slugify(clean)}">${text}</h2>`;
+    })
+    .replace(/<h3>(.*?)<\/h3>/g, (_, text) => {
+      const clean = String(text).replace(/<[^>]+>/g, "").trim();
+      return `<h3 id="${slugify(clean)}">${text}</h3>`;
+    }),
+}}
+          />
+
+          <div className="mt-14">
+            <RelatedGuides currentSlug={guide.slug} />
+          </div>
+
+          <div className="mt-14">
+       <AutoRelatedGuides relatedSlugs={guide.relatedSlugs} />
+         </div>
+        
+          <div className="mt-14">
+            <ProductResearchLinks />
+          </div>
+
+          <div className="mt-14">
+            <CalculatorPreview />
+          </div>
+        </div>
       </div>
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: guide.title,
+      description: guide.seoDescription || guide.excerpt,
+      author: {
+        "@type": "Organization",
+        name: "FBA Calculator UAE",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "FBA Calculator UAE",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.fbacalculatoruae.com/og-image-1200x630.png",
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `https://www.fbacalculatoruae.com/blog/${guide.slug}`,
+      },
+      url: `https://www.fbacalculatoruae.com/blog/${guide.slug}`,
+      inLanguage: "en",
+    }),
+  }}
+/>
+{guide.howToSteps && guide.howToSteps.length > 0 && (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: guide.title,
+        description: guide.seoDescription || guide.excerpt,
+        image: guide.ogImage || guide.heroImage || "https://www.fbacalculatoruae.com/og-image-1200x630.png",
+        totalTime: "PT30M",
+        step: guide.howToSteps.map((step, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: step,
+          text: step,
+        })),
+      }),
+    }}
+  />
+)}
     </main>
   );
 }

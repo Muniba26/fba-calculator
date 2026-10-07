@@ -22,7 +22,7 @@ export default function AutoRelatedGuides({
         {relatedGuides.map((guide) => (
           <Link
             key={guide!.slug}
-            href={`/guides/${guide!.slug}`}
+            href={`/blog/${guide!.slug}`}
             className="block rounded-xl border border-neutral-200 p-4 hover:shadow-sm transition"
           >
             <h3 className="text-lg font-semibold text-neutral-900">

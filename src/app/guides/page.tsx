@@ -3,23 +3,23 @@ import Link from "next/link";
 import { GUIDES } from "@/lib/guides";
 
 export const metadata: Metadata = {
-  title: "Amazon FBA UAE Guides | Seller Fees, Profit & Marketplace Tips",
+  title: "Amazon FBA UAE Blog | Seller Fees, Profit & Marketplace Tips",
   description:
-    "Read practical Amazon FBA UAE guides about selling fees, profit calculation, product pricing, seller costs, and marketplace growth for UAE and KSA sellers.",
+    "Read practical Amazon FBA UAE blog articles about selling fees, profit calculation, product pricing, seller costs, and marketplace growth for UAE and KSA sellers.",
 };
 
-export default function GuidesPage() {
+export default function BlogPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-14">
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-neutral-900 md:text-5xl">
-  Amazon FBA UAE Guides
-</h1>
+          Amazon FBA UAE Blog
+        </h1>
 
-<p className="mt-4 text-base text-neutral-600 md:text-lg">
-  Practical guides for Amazon UAE and KSA sellers covering FBA fees, profit calculation,
-  seller costs, pricing, and marketplace growth.
-</p>
+        <p className="mt-4 text-base text-neutral-600 md:text-lg">
+          Practical articles for Amazon UAE and KSA sellers covering FBA fees,
+          profit calculation, seller costs, pricing, and marketplace growth.
+        </p>
       </div>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
@@ -33,7 +33,7 @@ export default function GuidesPage() {
 
             <div className="mb-5 flex items-center justify-between">
               <span className="inline-flex rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
-                Guide {index + 1}
+                Article {index + 1}
               </span>
 
               <span className="text-neutral-300 transition group-hover:text-neutral-500">
@@ -51,7 +51,7 @@ export default function GuidesPage() {
 
             <div className="mt-6">
               <span className="text-sm font-semibold text-neutral-900 underline underline-offset-4">
-                Open Guide
+                Read Article
               </span>
             </div>
           </Link>

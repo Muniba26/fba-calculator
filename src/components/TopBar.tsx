@@ -45,7 +45,7 @@ ${
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-2">
           {navItem("/", "Home")}
-          {navItem("/articles", "Guides")}
+          {navItem("/blog", "Blog")}
           {navItem("/about", "About")}
           {navItem("/contact", "Contact")}
         </nav>
